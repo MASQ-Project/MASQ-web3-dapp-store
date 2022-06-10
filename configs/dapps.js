@@ -13,7 +13,7 @@
         "favorite": false,
         "link": "https://zapper.fi/",
         "icon": {
-          "url": "./assets/images/dapp_Zapper.png"
+          "url": "./assets/images/dapps/dapp_Zapper.png"
         },
         "coin": {
           "url": "./assets/images/ethereum-pure.svg",
@@ -27,7 +27,7 @@
         "favorite": false,
         "link": "https://app.aave.com/",
         "icon": {
-          "url": "./assets/images/dapp_Aave.png"
+          "url": "./assets/images/dapps/dapp_Aave.png"
         },
         "coin": {
           "url": "./assets/images/tron.svg",
@@ -41,7 +41,7 @@
         "favorite": false,
         "link": "https://bancor.network/",
         "icon": {
-          "url": "./assets/images/dapp_Bancor.png"
+          "url": "./assets/images/dapps/dapp_Bancor.png"
         },
         "coin": {
           "url": "./assets/images/binance-bsc.svg",
@@ -55,7 +55,7 @@
         "favorite": false,
         "link": "https://decentraland.org",
         "icon": {
-          "url": "./assets/images/dapp_Decentraland.png"
+          "url": "./assets/images/dapps/dapp_Decentraland.png"
         },
         "coin": {
           "url": "./assets/images/ethereum-pure.svg",
@@ -69,7 +69,7 @@
         "favorite": false,
         "link": "https://pooltogether.com/",
         "icon": {
-          "url": "./assets/images/dapp_Pooltogether.png"
+          "url": "./assets/images/dapps/dapp_Pooltogether.png"
         },
         "coin": {
           "url": "./assets/images/polygon-pure.svg",
@@ -83,7 +83,7 @@
         "favorite": false,
         "link": "https://copperlaunch.com/",
         "icon": {
-          "url": "./assets/images/dapp_CopperByAlchemist.png"
+          "url": "./assets/images/dapps/dapp_CopperByAlchemist.png"
         },
         "coin": {
           "url": "./assets/images/eos.svg",
@@ -97,7 +97,7 @@
         "favorite": false,
         "link": "https://crucible.alchemist.wtf/",
         "icon": {
-          "url": "./assets/images/dapp_CrucibleByAlchemist.png"
+          "url": "./assets/images/dapps/dapp_CrucibleByAlchemist.png"
         },
         "coin": {
           "url": "./assets/images/solana.svg",
@@ -111,7 +111,7 @@
         "favorite": false,
         "link": "https://opensea.io/",
         "icon": {
-          "url": "./assets/images/dapp_Opensea.png"
+          "url": "./assets/images/dapps/dapp_Opensea.png"
         },
         "coin": {
           "url": "./assets/images/neo.svg",
@@ -134,7 +134,7 @@
         "favorite": false,
         "link": "https://app.aave.com/",
         "icon": {
-          "url": "./assets/images/dapp_Aave.png"
+          "url": "./assets/images/dapps/dapp_Aave.png"
         }
       },
       {
@@ -144,7 +144,7 @@
         "favorite": false,
         "link": "https://bancor.network/",
         "icon": {
-          "url": "./assets/images/dapp_Bancor.png"
+          "url": "./assets/images/dapps/dapp_Bancor.png"
         }
       },
       {
@@ -154,7 +154,7 @@
         "favorite": false,
         "link": "https://pooltogether.com/",
         "icon": {
-          "url": "./assets/images/dapp_Pooltogether.png"
+          "url": "./assets/images/dapps/dapp_Pooltogether.png"
         }
       },
       {
@@ -164,7 +164,7 @@
         "favorite": false,
         "link": "https://zapper.fi/",
         "icon": {
-          "url": "./assets/images/dapp_Zapper.png"
+          "url": "./assets/images/dapps/dapp_Zapper.png"
         }
       },
       {
@@ -174,7 +174,7 @@
         "favorite": false,
         "link": "https://copperlaunch.com/",
         "icon": {
-          "url": "./assets/images/dapp_CopperByAlchemist.png"
+          "url": "./assets/images/dapps/dapp_CopperByAlchemist.png"
         }
       },
       {
@@ -184,7 +184,7 @@
         "favorite": false,
         "link": "https://crucible.alchemist.wtf/",
         "icon": {
-          "url": "./assets/images/dapp_CrucibleByAlchemist.png"
+          "url": "./assets/images/dapps/dapp_CrucibleByAlchemist.png"
         }
       }
     ]
@@ -203,7 +203,7 @@
         "favorite": false,
         "link": "https://opensea.io/",
         "icon": {
-          "url": "./assets/images/dapp_Opensea.png"
+          "url": "./assets/images/dapps/dapp_Opensea.png"
         }
       },
       {
@@ -213,7 +213,7 @@
         "favorite": false,
         "link": "https://www.cryptovoxels.com/",
         "icon": {
-          "url": "./assets/images/dapp_CryptoVoxels.png"
+          "url": "./assets/images/dapps/dapp_CryptoVoxels.png"
         }
       },
       {
@@ -223,7 +223,7 @@
         "favorite": false,
         "link": "https://foundation.app/",
         "icon": {
-          "url": "./assets/images/dapp_Foundation.png"
+          "url": "./assets/images/dapps/dapp_Foundation.png"
         }
       }
     ]
@@ -242,7 +242,7 @@
         "favorite": false,
         "link": "https://decentraland.org",
         "icon": {
-          "url": "./assets/images/dapp_Decentraland.png"
+          "url": "./assets/images/dapps/dapp_Decentraland.png"
         }
       },
       {
@@ -252,7 +252,7 @@
         "favorite": false,
         "link": "https://arc8.gamee.com",
         "icon": {
-          "url": "./assets/images/dapp_Arc8.png"
+          "url": "./assets/images/dapps/dapp_Arc8.png"
         }
       },
       {
@@ -262,7 +262,7 @@
         "favorite": false,
         "link": "https://www.cryptovoxels.com/",
         "icon": {
-          "url": "./assets/images/dapp_CryptoVoxels.png"
+          "url": "./assets/images/dapps/dapp_CryptoVoxels.png"
         }
       },
       {
@@ -272,7 +272,7 @@
         "favorite": false,
         "link": "https://zkga.me/",
         "icon": {
-          "url": "./assets/images/dapp_Darkforest.png"
+          "url": "./assets/images/dapps/dapp_Darkforest.png"
         }
       }
     ]
@@ -291,7 +291,7 @@
         "favorite": false,
         "link": "https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2",
         "icon": {
-          "url": "./assets/images/dapp_uniswap.png"
+          "url": "./assets/images/dapps/dapp_uniswap.png"
         }
       },
       {
@@ -301,7 +301,7 @@
         "favorite": false,
         "link": "https://app.mistx.io",
         "icon": {
-          "url": "./assets/images/dapp_Mistx.png"
+          "url": "./assets/images/dapps/dapp_Mistx.png"
         }
       },
       {
@@ -311,7 +311,7 @@
         "favorite": false,
         "link": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x06F3C323f0238c72BF35011071f2b5B7F43A054c",
         "icon": {
-          "url": "./assets/images/dapp_Sushiswap.png"
+          "url": "./assets/images/dapps/dapp_Sushiswap.png"
         }
       },
       {
@@ -321,7 +321,7 @@
         "favorite": false,
         "link": "https://dydx.exchange/",
         "icon": {
-          "url": "./assets/images/dapp_DYDX.png"
+          "url": "./assets/images/dapps/dapp_DYDX.png"
         }
       },
       {
@@ -331,7 +331,7 @@
         "favorite": false,
         "link": "https://matcha.xyz/",
         "icon": {
-          "url": "./assets/images/dapp_Matcha.png"
+          "url": "./assets/images/dapps/dapp_Matcha.png"
         }
       },
       {
@@ -341,7 +341,7 @@
         "favorite": false,
         "link": "https://quickswap.exchange/",
         "icon": {
-          "url": "./assets/images/dapp_Quickswap.png"
+          "url": "./assets/images/dapps/dapp_Quickswap.png"
         }
       }
     ]
@@ -360,7 +360,7 @@
         "favorite": false,
         "link": "https://youtube.com",
         "icon": {
-          "url": "./assets/images/dapp_Youtube.png"
+          "url": "./assets/images/dapps/dapp_Youtube.png"
         }
       }
     ]
@@ -379,7 +379,7 @@
         "favorite": false,
         "link": "https://www.dextools.io/app",
         "icon": {
-          "url": "./assets/images/dapp_Dextools.png"
+          "url": "./assets/images/dapps/dapp_Dextools.png"
         }
       },
       {
@@ -389,7 +389,7 @@
         "favorite": false,
         "link": "https://ens.domains/",
         "icon": {
-          "url": "./assets/images/dapp_ENS.png"
+          "url": "./assets/images/dapps/dapp_ENS.png"
         }
       },
       {
@@ -399,7 +399,7 @@
         "favorite": false,
         "link": "https://etherscan.com/",
         "icon": {
-          "url": "./assets/images/dapp_Etherscan.png"
+          "url": "./assets/images/dapps/dapp_Etherscan.png"
         }
       },
       {
@@ -409,7 +409,7 @@
         "favorite": false,
         "link": "https://polygonscan.com/",
         "icon": {
-          "url": "./assets/images/dapp_Polyscan.png"
+          "url": "./assets/images/dapps/dapp_Polyscan.png"
         }
       },
       {
@@ -419,7 +419,7 @@
         "favorite": false,
         "link": "https://wallet.polygon.technology/login?next=%2Fbridge",
         "icon": {
-          "url": "./assets/images/dapp_PolygonBridge.png"
+          "url": "./assets/images/dapps/dapp_PolygonBridge.png"
         }
       },
       {
@@ -429,7 +429,7 @@
         "favorite": false,
         "link": "https://wallet.polygon.technology/login?next=%2Fwallet",
         "icon": {
-          "url": "./assets/images/dapp_PolygonWallet.png"
+          "url": "./assets/images/dapps/dapp_PolygonWallet.png"
         }
       },
       {
@@ -439,7 +439,7 @@
         "favorite": false,
         "link": "https://sandwiched.wtf/",
         "icon": {
-          "url": "./assets/images/dapp_SandwichedByAlchemist.png"
+          "url": "./assets/images/dapps/dapp_SandwichedByAlchemist.png"
         }
       }
     ]
