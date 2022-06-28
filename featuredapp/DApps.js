@@ -10,7 +10,7 @@ import { categoriesData } from '../../../configs/dapps.js';
 
 import feature1 from '../../../assets/images/dapps/dapp_feat1_masqswap.png';
 import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
-import feature3 from '../../../assets/images/dapps/dapp_feat3_rarible.png';
+import feature3 from '../../../assets/images/dapps/dapp_feat3_FlufWorld.png';
 
 import './DApps.scss';
 
@@ -41,14 +41,14 @@ const featureAppData = [
     },
   },
   {
-    name: 'Rarible',
-    link: 'https://rarible.com/',
+    name: 'Fluf World',
+    link: 'https://fluf.world/',
     description:
-      'The go-to marketplace for buying, selling, and creating the hottest NFTs!',
+      'Fluf World is a metaverse ecosystem of NFT character collectables and a global, creative community.',
     banner: feature3,
     favorite: false,
     icon: {
-      url: './assets/images/dapps/rarible-icon.png',
+      url: './assets/images/dapps/dapp_FlufWorld.png',
     },
   },
 ];
