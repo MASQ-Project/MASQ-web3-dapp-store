@@ -8,9 +8,9 @@ import AppStore from './AppStore';
 
 import { categoriesData } from '../../../configs/dapps.js';
 
-import crucible from '../../../assets/images/dapps/crucible-resized.png';
-import masqswap from '../../../assets/images/dapps/masqswap.png';
-import rarible from '../../../assets/images/dapps/rarible.png';
+import feature1 from '../../../assets/images/dapps/dapp_feat1_masqswap.png';
+import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
+import feature2 from '../../../assets/images/dapps/dapp_feat3_rarible.png';
 
 import './DApps.scss';
 
@@ -23,7 +23,7 @@ const featureAppData = [
     link: 'https://masq.ai/swap',
     description:
       'Use MASQs all-new multichain swap to fulfil all your token needs!',
-    banner: masqswap,
+    banner: feature1,
     favorite: false,
     icon: {
       url: './assets/images/dapps/MASQ_Swap-icon.png',
@@ -34,7 +34,7 @@ const featureAppData = [
     link: 'https://crucible.alchemist.wtf/',
     description:
       'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
-    banner: crucible,
+    banner: feature2,
     favorite: false,
     icon: {
       url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
@@ -45,7 +45,7 @@ const featureAppData = [
     link: 'https://rarible.com/',
     description:
       'The go-to marketplace for buying, selling, and creating the hottest NFTs!',
-    banner: rarible,
+    banner: feature3,
     favorite: false,
     icon: {
       url: './assets/images/dapps/rarible-icon.png',
