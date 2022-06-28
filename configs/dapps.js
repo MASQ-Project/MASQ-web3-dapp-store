@@ -226,15 +226,15 @@ export const categoriesData = [
       },
       {
         id: 2,
-        name: 'CryptoVoxels',
+        name: 'Fluf World',
         description:
-          'Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain.',
+          'Fluf World is metaverse ecosystem of NFT character collectables and a global, creative community.',
         favorite: false,
-        link: 'https://www.cryptovoxels.com/',
+        link: 'https://www.fluf.world',
         icon: {
-          url: './assets/images/dapps/dapp_CryptoVoxels.png',
+          url: './assets/images/dapps/dapp_FlufWorld.png',
         },
-      },
+      },      
       {
         id: 3,
         name: 'Foundation',
@@ -268,6 +268,17 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'AIFA',
+        description:
+          'Create your own AIFA All-Stars, powered by ASM Brains. Play for rankings, Play-and-Earn, or just for fun.',
+        favorite: false,
+        link: 'https://aifa.football',
+        icon: {
+          url: './assets/images/dapps/dapp_AIFA.png',
+        },
+      },
+      {
+        id: 3,
         name: 'Arc8',
         description:
           'Arc8 by GAMEE brings the blockchain experience to millions of gamers - Powered by Polygon',
@@ -278,7 +289,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 4,
         name: 'CryptoVoxels',
         description:
           'Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain.',
