@@ -10,7 +10,7 @@ import { categoriesData } from '../../../configs/dapps.js';
 
 import feature1 from '../../../assets/images/dapps/dapp_feat1_masqswap.png';
 import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
-import feature2 from '../../../assets/images/dapps/dapp_feat3_rarible.png';
+import feature3 from '../../../assets/images/dapps/dapp_feat3_rarible.png';
 
 import './DApps.scss';
 
