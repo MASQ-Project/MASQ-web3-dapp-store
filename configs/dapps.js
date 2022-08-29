@@ -321,13 +321,13 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
-        name: 'Uniswap',
+        name: 'QuickSwap',
         description:
-          'Swap, earn, and build on the leading decentralized crypto trading protocol.',
+          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
         favorite: false,
-        link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
+        link: 'https://quickswap.exchange/',
         icon: {
-          url: './assets/images/dapps/dapp_uniswap.png',
+          url: './assets/images/dapps/dapp_Quickswap.png',
         },
       },
       {
@@ -343,13 +343,13 @@ export const categoriesData = [
       },
       {
         id: 3,
-        name: 'QuickSwap',
+        name: 'Uniswap',
         description:
-          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
+          'Swap, earn, and build on the leading decentralized crypto trading protocol.',
         favorite: false,
-        link: 'https://quickswap.exchange/',
+        link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
         icon: {
-          url: './assets/images/dapps/dapp_Quickswap.png',
+          url: './assets/images/dapps/dapp_uniswap.png',
         },
       },
       {
