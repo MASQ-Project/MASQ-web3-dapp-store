@@ -427,24 +427,24 @@ export const categoriesData = [
       },
       {
         id: 2,
-        name: 'Etherscan',
+        name: 'Akash',
         description:
-          'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
+          'Akash Network provides a fast, efficient and low-cost application deployment solution.',
         favorite: false,
-        link: 'https://etherscan.com/',
+        link: 'https://akash.network/',
         icon: {
-          url: './assets/images/dapps/dapp_Etherscan.png',
+          url: './assets/images/dapps/dapp_Akash.png',
         },
       },
       {
         id: 3,
-        name: 'Polygonscan',
+        name: 'Ethplorer',
         description:
-          'Search the Polygon blockchain for transactions, addresses, tokens, prices and other activities',
+          'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
         favorite: false,
-        link: 'https://polygonscan.com/',
+        link: 'https://ethplorer.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Polyscan.png',
+          url: './assets/images/dapps/dapp_Etherscan.png',
         },
       },
       {
