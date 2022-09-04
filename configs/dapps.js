@@ -1,6 +1,6 @@
 // from MASQ-web3-store Public repo - initiated 25 June 2022
 // to be imported to path: app/configs/dapps.js
-// version 1.0
+// version 1.2
 export const categoriesData = [
   {
     id: 1,
@@ -105,7 +105,7 @@ export const categoriesData = [
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
         favorite: false,
-        link: 'https://crucible.alchemist.wtf/',
+        link: 'https://alchemist.wtf/',
         icon: {
           url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
         },
@@ -195,9 +195,9 @@ export const categoriesData = [
       },
       {
         id: 6,
-        name: 'Alchemist',
+        name: 'Crucible',
         description:
-          'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
+          'A Crucible is an ERC-721 NFT that acts as a non-custodial universal wallet for DeFi',
         favorite: false,
         link: 'https://crucible.alchemist.wtf/',
         icon: {
@@ -444,7 +444,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://ethplorer.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Etherscan.png',
+          url: './assets/images/dapps/dapp_Ethplorer.png',
         },
       },
       {
