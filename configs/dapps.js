@@ -1,6 +1,6 @@
 // from MASQ-web3-store Public repo - initiated 25 June 2022
 // to be imported to path: app/configs/dapps.js
-// version 1.0
+// version 1.2
 export const categoriesData = [
   {
     id: 1,
@@ -444,7 +444,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://ethplorer.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Etherscan.png',
+          url: './assets/images/dapps/dapp_Ethplorer.png',
         },
       },
       {
