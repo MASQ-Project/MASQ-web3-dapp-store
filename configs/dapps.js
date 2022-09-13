@@ -1,6 +1,6 @@
 // from MASQ-web3-store Public repo - initiated 25 June 2022
 // to be imported to path: app/configs/dapps.js
-// version 1.2
+// version 1.3
 export const categoriesData = [
   {
     id: 1,
@@ -11,6 +11,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
+        name: 'QuickSwap',
+        description:
+          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
+        favorite: false,
+        link: 'https://quickswap.exchange/',
+        icon: {
+          url: './assets/images/dapps/dapp_Quickswap.png',
+        },
+      },
+      {
+        id: 2,
         name: 'Crucible',
         description:
            'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
@@ -25,97 +36,18 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
-        name: 'Zapper',
-        description:
-          'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
-        favorite: false,
-        link: 'https://zapper.fi/',
-        icon: {
-          url: './assets/images/dapps/dapp_Zapper.png',
-        },
-        coin: {
-          url: './assets/images/ethereum-pure.svg',
-          label: 'ETHEREUM',
-        },
-      },
-      {
         id: 3,
-        name: 'Aave',
+        name: 'Akash',
         description:
-          'Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.',
+          'Akash Network provides a fast, efficient and low-cost application deployment solution.',
         favorite: false,
-        link: 'https://app.aave.com/',
+        link: 'https://akash.network/',
         icon: {
-          url: './assets/images/dapps/dapp_Aave.png',
-        },
-        coin: {
-          url: './assets/images/tron.svg',
-          label: 'TRON',
+          url: './assets/images/dapps/dapp_Akash.png',
         },
       },
       {
         id: 4,
-        name: 'Bancor',
-        description:
-          'Trade tokens and earn interest on your favorite tokens by staking them.',
-        favorite: false,
-        link: 'https://bancor.network/',
-        icon: {
-          url: './assets/images/dapps/dapp_Bancor.png',
-        },
-        coin: {
-          url: './assets/images/binance-bsc.svg',
-          label: 'BINANCE BSC',
-        },
-      },
-      {
-        id: 5,
-        name: 'PoolTogether',
-        description:
-          'Crypto-powered savings protocol based on Premium Bonds. Save money and have a chance to win every week.',
-        favorite: false,
-        link: 'https://pooltogether.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_Pooltogether.png',
-        },
-        coin: {
-          url: './assets/images/polygon-pure.svg',
-          label: 'polygon',
-        },
-      },
-      {
-        id: 6,
-        name: 'Copper',
-        description:
-          'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
-        favorite: false,
-        link: 'https://copperlaunch.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_CopperByAlchemist.png',
-        },
-        coin: {
-          url: './assets/images/eos.svg',
-          label: 'eos',
-        },
-      },
-      {
-        id: 7,
-        name: 'Alchemist',
-        description:
-          'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
-        favorite: false,
-        link: 'https://alchemist.wtf/',
-        icon: {
-          url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
-        },
-        coin: {
-          url: './assets/images/solana.svg',
-          label: 'solana',
-        },
-      },
-      {
-        id: 8,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -469,13 +401,12 @@ export const categoriesData = [
       },
       {
         id: 6,
-        name: 'Sandwiched.wtf',
-        description:
-          'Check if your DEX trades have been front-run by shadowy super-coders.',
+        name: 'CoinGecko',
+        description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
-        link: 'https://sandwiched.wtf/',
+        link: 'https://www.coingecko.com',
         icon: {
-          url: './assets/images/dapps/dapp_SandwichedByAlchemist.png',
+          url: './assets/images/dapps/dapp_CoinGecko.png',
         },
       },
     ],
@@ -486,6 +417,27 @@ export const categoriesData = [
     icon: {
       url: './assets/images/dapps/other.svg',
     },
-    d_apps: [],
+    d_apps: [
+      {
+        id: 1,
+        name: 'Intro to web3',
+        description: 'Read about the evolution of web3',
+        favorite: false,
+        link: 'https://ethereum.org/en/web3/',
+        icon: {
+          url: './assets/images/dapps/dapp_Ethereum.png',
+        },
+      },
+      {
+        id: 2,
+        name: 'MASQ Swap',
+        description: 'Perform multi-chain swap using Rubic powered widget',
+        favorite: false,
+        link: 'https://www.masq.ai/swap',
+        icon: {
+          url: './assets/images/dapps/MASQ_Swap-icon.png',
+        },
+      },
+    ],
   },
 ];
