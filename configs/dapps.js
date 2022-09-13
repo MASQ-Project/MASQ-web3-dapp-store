@@ -433,7 +433,7 @@ export const categoriesData = [
         name: 'MASQ Swap',
         description: 'Perform multi-chain swap using Rubic powered widget',
         favorite: false,
-        link: 'https://masq.ai/swap',
+        link: 'https://www.masq.ai/swap',
         icon: {
           url: './assets/images/dapps/MASQ_Swap-icon.png',
         },
