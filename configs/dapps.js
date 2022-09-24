@@ -178,6 +178,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_Foundation.png',
         },
       },
+      {
+        id: 4,
+        name: 'Rarible',
+        description:
+          'Discover, sell and buy NFTs on Rarible! Whether it is Ethereum NFTs, Solana NFTs or Tezos NFTs, get them on first Web3 multichain marketplace.',
+        favorite: false,
+        link: 'https://rarible.com',
+        icon: {
+          url: './assets/images/dapps/dapp_Rarible.png',
+        },
+      },
     ],
   },
   {
@@ -297,17 +308,6 @@ export const categoriesData = [
       },
       {
         id: 5,
-        name: 'DYDX',
-        description:
-          'Trade Perpetual Contracts with low fees & deep liquidity. Decentralized Exchange.',
-        favorite: false,
-        link: 'https://dydx.exchange/',
-        icon: {
-          url: './assets/images/dapps/dapp_DYDX.png',
-        },
-      },
-      {
-        id: 6,
         name: 'Matcha',
         description:
           'Matcha finds you the best prices across exchanges and combines them into one gassless trade.',
