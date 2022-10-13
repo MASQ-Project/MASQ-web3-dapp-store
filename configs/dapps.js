@@ -105,6 +105,17 @@ export const categoriesData = [
       },
       {
         id: 4,
+        name: 'Fjord Foundry',
+        description:
+          'Discover new communities, support new ideas and explore new worlds.',
+        favorite: false,
+        link: 'https://fjordfoundry.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_Fjord.png',
+        },
+      },
+      {
+        id: 5,
         name: 'Zapper',
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
@@ -112,17 +123,6 @@ export const categoriesData = [
         link: 'https://zapper.fi/',
         icon: {
           url: './assets/images/dapps/dapp_Zapper.png',
-        },
-      },
-      {
-        id: 5,
-        name: 'Copper',
-        description:
-          'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
-        favorite: false,
-        link: 'https://copperlaunch.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_CopperByAlchemist.png',
         },
       },
       {
@@ -162,20 +162,20 @@ export const categoriesData = [
         description:
           'Fluf World is metaverse ecosystem of NFT character collectables and a global, creative community.',
         favorite: false,
-        link: 'https://www.fluf.world',
+        link: 'https://under.fluf.world',
         icon: {
           url: './assets/images/dapps/dapp_FlufWorld.png',
         },
-      },      
+      },
       {
         id: 3,
-        name: 'Foundation',
+        name: 'Fjord NFT',
         description:
-          'Using the idea of the stock market & crypto to benefit creators and collectors directly.',
+          'Discover new communities, support new ideas and explore new worlds via fair launch NFTs.',
         favorite: false,
-        link: 'https://foundation.app/',
+        link: 'https://fjordnfts.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Foundation.png',
+          url: './assets/images/dapps/dapp_Fjord.png',
         },
       },
       {
@@ -189,6 +189,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_Rarible.png',
         },
       },
+      {
+        id: 5,
+        name: 'Foundation',
+        description:
+          'Using the idea of the stock market & crypto to benefit creators and collectors directly.',
+        favorite: false,
+        link: 'https://foundation.app/',
+        icon: {
+          url: './assets/images/dapps/dapp_Foundation.png',
+        },
+      }, 
     ],
   },
   {
