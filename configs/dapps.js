@@ -1,6 +1,6 @@
 // from MASQ-web3-store Public repo - initiated 25 June 2022
 // to be imported to path: app/configs/dapps.js
-// version 1.3
+// version 1.4
 export const categoriesData = [
   {
     id: 1,
@@ -61,6 +61,17 @@ export const categoriesData = [
           label: 'NEO',
         },
       },
+      {
+        id: 3,
+        name: 'Fjord NFT',
+        description:
+          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
+        favorite: false,
+        link: 'https://fjordnfts.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_FjordNFT.png',
+        },
+      },
     ],
   },
   {
@@ -107,7 +118,7 @@ export const categoriesData = [
         id: 4,
         name: 'Fjord Foundry',
         description:
-          'Discover new communities, support new ideas and explore new worlds.',
+          'Openly and fairly generate liquidity, via direct community participation in Liquidity Bootstrapping Pools.',
         favorite: false,
         link: 'https://fjordfoundry.com/',
         icon: {
@@ -171,11 +182,11 @@ export const categoriesData = [
         id: 3,
         name: 'Fjord NFT',
         description:
-          'Discover new communities, support new ideas and explore new worlds via fair launch NFTs.',
+          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
         favorite: false,
         link: 'https://fjordnfts.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Fjord.png',
+          url: './assets/images/dapps/dapp_FjordNFT.png',
         },
       },
       {
