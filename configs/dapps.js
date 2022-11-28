@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - initiated 25 June 2022
+// from MASQ-web3-store Public repo - modified 28 Nov 2022
 // to be imported to path: app/configs/dapps.js
-// version 1.4
+// version 1.5
 export const categoriesData = [
   {
     id: 1,
@@ -448,16 +448,6 @@ export const categoriesData = [
         link: 'https://ethereum.org/en/web3/',
         icon: {
           url: './assets/images/dapps/dapp_Ethereum.png',
-        },
-      },
-      {
-        id: 2,
-        name: 'MASQ Swap',
-        description: 'Perform multi-chain swap using Rubic powered widget',
-        favorite: false,
-        link: 'https://www.masq.ai/swap',
-        icon: {
-          url: './assets/images/dapps/MASQ_Swap-icon.png',
         },
       },
     ],
