@@ -8,7 +8,7 @@ import AppStore from './AppStore';
 
 import { categoriesData } from '../../../configs/dapps.js';
 
-import feature1 from '../../../assets/images/dapps/dapp_feat1_masqswap.png';
+import feature1 from '../../../assets/images/dapps/dapp_feat1_masq_banner.png';
 import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
 import feature3 from '../../../assets/images/dapps/dapp_feat3_FlufWorld.png';
 
@@ -31,7 +31,7 @@ const featureAppData = [
     banner: feature1,
     favorite: false,
     icon: {
-      url: './assets/images/dapps/MASQ_Swap-icon.png',
+      url: './assets/images/dapps/dapp_feat1_masq_banner.png',
     },
   },
   {
