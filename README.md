@@ -17,7 +17,7 @@ You are encouraged to reach out to our [team at MASQ](mailto:info@masq.ai?subjec
 ### For Community recommendations
 **Discord**
 
-There is a dedicated #web3dapps-request [Discord channel](https://discord.gg/4hCEs3hPhb) for dApp and project discussions
+There is a dedicated #web3-dapps-request [Discord channel](https://discord.gg/4hCEs3hPhb) for dApp and project discussions
 
 **Canny dApp Request**
 
