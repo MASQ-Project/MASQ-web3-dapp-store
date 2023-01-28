@@ -24,10 +24,10 @@ const store = new Store();
 
 const featureAppData = [
   {
-    name: 'MASQ',
+    name: 'MASQ Network',
     link: 'https://masq.ai/',
     description:
-      'Discover how MASQ is building the borderless browser for web3',
+      'Discover how MASQ is building the borderless browser for the web3 ecosystem',
     banner: feature1,
     favorite: false,
     icon: {
