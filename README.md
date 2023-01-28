@@ -1,11 +1,11 @@
-# MASQ web3 Library Public Repository
+# MASQ web3 dApp Library Public Repository
 
 ## Vision
 MASQ stands to be the only truly decentralized-stack web3 privacy browser, powered by a community of supporters. To provide a fully fledged user experience to both web2 users transitioning into web3, and those native to web3, the MASQ contributors must foster and embrace an ecosystem of web3 builders, projects and partners. **Our vision at MASQ is to onboard and grow a rich ecosystem of the most innovative, user friendly and fundamental web3 partners and dApps to offer one-click discover and experience to the MASQ users of the world**
 
 ## Purpose
 Bundled into the MASQ web3 browser, there is a dedicated **web3 Store**
-![image](https://user-images.githubusercontent.com/55721017/191413490-70c58784-7da7-4dd7-931d-f8ed3a9f4e35.png)
+![image](https://user-images.githubusercontent.com/55721017/212500843-c5c82283-7a20-4a2f-8aad-0c0a2652f232.png)
 
 This is a Library containing many popular web3-founded and blockchain based platforms, dApps and websites. Also included are other popular websites that many users interact with on a daily basis, to make navigating and interacting with these seamless.
 
@@ -17,7 +17,7 @@ You are encouraged to reach out to our [team at MASQ](mailto:info@masq.ai?subjec
 ### For Community recommendations
 **Discord**
 
-There is a dedicated #dapps-request [Discord channel](https://discord.gg/4hCEs3hPhb) for dApp and project discussions
+There is a dedicated #web3-dapps-request [Discord channel](https://discord.gg/4hCEs3hPhb) for dApp and project discussions
 
 **Canny dApp Request**
 

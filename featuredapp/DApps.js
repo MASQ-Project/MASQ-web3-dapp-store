@@ -1,4 +1,4 @@
-// from MASQ-web3-store Public repo - modified 28 Nov 2022
+// from MASQ-web3-store Public repo - modified 29 Jan 2023
 // to be imported to path: app/components/Main/DApps/DApps.js
 // version 1.1
 
@@ -8,7 +8,7 @@ import AppStore from './AppStore';
 
 import { categoriesData } from '../../../configs/dapps.js';
 
-import feature1 from '../../../assets/images/dapps/dapp_feat1_masqswap.png';
+import feature1 from '../../../assets/images/dapps/dapp_feat1_masq_banner.png';
 import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
 import feature3 from '../../../assets/images/dapps/dapp_feat3_FlufWorld.png';
 
@@ -24,14 +24,14 @@ const store = new Store();
 
 const featureAppData = [
   {
-    name: 'MASQ',
+    name: 'MASQ Network',
     link: 'https://masq.ai/',
     description:
-      'Discover how MASQ is building the borderless browser for web3',
+      'Discover how MASQ is building the borderless browser for the web3 ecosystem',
     banner: feature1,
     favorite: false,
     icon: {
-      url: './assets/images/dapps/MASQ_Swap-icon.png',
+      url: './assets/images/dapps/dapp_feat1_masq_banner.png',
     },
   },
   {
