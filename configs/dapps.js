@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 28 Nov 2022
+// from MASQ-web3-store Public repo - modified 29 Jan 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.5
+// version 1.6
 export const categoriesData = [
   {
     id: 1,
