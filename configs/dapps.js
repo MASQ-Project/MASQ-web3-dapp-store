@@ -153,7 +153,7 @@ export const categoriesData = [
         description:
           'DefiLlama is a transparent DeFi TVL and analytics platform.',
         favorite: false,
-        link: 'https://swap.defillama.com/',
+        link: 'https://defillama.com/',
         icon: {
           url: './assets/images/dapps/dapp_DefiLlama.png',
         },
