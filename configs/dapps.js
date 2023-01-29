@@ -431,6 +431,16 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_CoinGecko.png',
         },
       },
+      {
+        id: 7,
+        name: 'FrameWallet',
+        description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
+        favorite: false,
+        link: 'https://frame.sh/',
+        icon: {
+          url: './assets/images/dapps/dapp_FrameWallet.png',
+        },
+      },
     ],
   },
   {
