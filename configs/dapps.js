@@ -48,7 +48,7 @@ export const categoriesData = [
       },
       {
         id: 4,
-        name: 'FrameWallet',
+        name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
         link: 'https://frame.sh/',
@@ -443,7 +443,7 @@ export const categoriesData = [
       },
       {
         id: 7,
-        name: 'FrameWallet',
+        name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
         link: 'https://frame.sh/',
