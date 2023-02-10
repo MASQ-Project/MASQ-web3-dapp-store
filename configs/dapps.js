@@ -48,6 +48,16 @@ export const categoriesData = [
       },
       {
         id: 4,
+        name: 'Frame',
+        description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
+        favorite: false,
+        link: 'https://frame.sh/',
+        icon: {
+          url: './assets/images/dapps/dapp_FrameWallet.png',
+        },
+      },
+      {
+        id: 5,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -62,7 +72,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 6,
         name: 'Fjord NFT',
         description:
           'Create or participate in NFT Fair Drops that are geared towards community discovery.',
@@ -440,6 +450,16 @@ export const categoriesData = [
         link: 'https://www.coingecko.com',
         icon: {
           url: './assets/images/dapps/dapp_CoinGecko.png',
+        },
+      },
+      {
+        id: 7,
+        name: 'Frame',
+        description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
+        favorite: false,
+        link: 'https://frame.sh/',
+        icon: {
+          url: './assets/images/dapps/dapp_FrameWallet.png',
         },
       },
     ],
