@@ -60,7 +60,7 @@ export const categoriesData = [
         id: 5,
         name: 'dm3 Protocol',
         description:
-          'The dm3 protocol offers peer messaging wiht end-to-end encryption, across ENS for easy adoption.',
+          'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
         favorite: false,
         link: 'https://dm3.network/',
         icon: {
@@ -384,7 +384,7 @@ export const categoriesData = [
         id: 2,
         name: 'dm3 Protocol',
         description:
-          'The dm3 protocol offers peer messaging wiht end-to-end encryption, across ENS for easy adoption.',
+          'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
         favorite: false,
         link: 'https://dm3.network/',
         icon: {
@@ -505,7 +505,7 @@ export const categoriesData = [
       {
         id: 2,
         name: 'Presearch',
-        description: 'Search privately, with the Presearch decentralized search engine, powered by blockchain technology.',
+        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
         favorite: false,
         link: 'https://presearch.com',
         icon: {
