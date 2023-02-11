@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 29 Jan 2023
+// from MASQ-web3-store Public repo - modified 12 Feb 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.5
+// version 1.6
 export const categoriesData = [
   {
     id: 1,
@@ -402,6 +402,16 @@ export const categoriesData = [
       },
       {
         id: 3,
+        name: 'ENS',
+        description: 'Decentralised naming for wallets, websites, & more',
+        favorite: false,
+        link: 'https://ens.domains',
+        icon: {
+          url: './assets/images/dapps/dapp_ENS.png',
+        },
+      },
+      {
+        id: 4,
         name: 'Ethplorer',
         description:
           'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
@@ -412,7 +422,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'Polygon Bridge',
         description: 'Deposit and Withdraw tokens between Ethereum and Polygon',
         favorite: false,
@@ -422,7 +432,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'Polygon Wallet',
         description: 'Send and receive crypto assets on Polygon network.',
         favorite: false,
@@ -432,7 +442,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
@@ -442,7 +452,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 8,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
@@ -468,6 +478,26 @@ export const categoriesData = [
         link: 'https://ethereum.org/en/web3/',
         icon: {
           url: './assets/images/dapps/dapp_Ethereum.png',
+        },
+      },
+      {
+        id: 2,
+        name: 'Presearch',
+        description: 'Search privately, with the Presearch decentralized search engine, powered by blockchain technology.',
+        favorite: false,
+        link: 'https://presearch.com',
+        icon: {
+          url: './assets/images/dapps/dapp_Presearch.png',
+        },
+      },
+      {
+        id: 3,
+        name: 'alXandria',
+        description: 'alXandria is an online, open-source, collaborative encyclopedic effort.',
+        favorite: false,
+        link: 'https://alxandria.org',
+        icon: {
+          url: './assets/images/dapps/dapp_alXandria.png',
         },
       },
     ],
