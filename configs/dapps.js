@@ -58,6 +58,17 @@ export const categoriesData = [
       },
       {
         id: 5,
+        name: 'dm3 Protocol',
+        description:
+          'The dm3 protocol offers peer messaging wiht end-to-end encryption, across ENS for easy adoption.',
+        favorite: false,
+        link: 'https://dm3.network/',
+        icon: {
+          url: './assets/images/dapps/dapp_dm3.png',
+        },
+      },
+      {
+        id: 6,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -367,6 +378,17 @@ export const categoriesData = [
         link: 'https://youtube.com',
         icon: {
           url: './assets/images/dapps/dapp_Youtube.png',
+        },
+      },
+      {
+        id: 2,
+        name: 'dm3 Protocol',
+        description:
+          'The dm3 protocol offers peer messaging wiht end-to-end encryption, across ENS for easy adoption.',
+        favorite: false,
+        link: 'https://dm3.network/',
+        icon: {
+          url: './assets/images/dapps/dapp_dm3.png',
         },
       },
     ],
