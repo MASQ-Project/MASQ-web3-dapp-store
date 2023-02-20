@@ -168,6 +168,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
         },
       },
+      {
+        id: 7,
+        name: 'DefiLlama',
+        description:
+          'DefiLlama is a transparent DeFi TVL and analytics platform.',
+        favorite: false,
+        link: 'https://defillama.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_DefiLlama.png',
+        },
+      },
     ],
   },
   {
