@@ -58,6 +58,17 @@ export const categoriesData = [
       },
       {
         id: 5,
+        name: 'Filebase',
+        description:
+          'Experience decentralized storage access to IPFS, with an easy to use interface',
+        favorite: false,
+        link: 'https://filebase.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_Filebase.png',
+        },
+      },
+      {
+        id: 6,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -68,7 +79,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -83,7 +94,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 8,
         name: 'Fjord NFT',
         description:
           'Create or participate in NFT Fair Drops that are geared towards community discovery.',
@@ -435,6 +446,17 @@ export const categoriesData = [
       },
       {
         id: 3,
+        name: 'Filebase',
+        description:
+          'Experience decentralized storage access to IPFS, with an easy to use interface',
+        favorite: false,
+        link: 'https://filebase.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_Filebase.png',
+        },
+      },
+      {
+        id: 4,
         name: 'ENS',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -444,7 +466,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'Ethplorer',
         description:
           'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
@@ -455,7 +477,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'Polygon Bridge',
         description: 'Deposit and Withdraw tokens between Ethereum and Polygon',
         favorite: false,
@@ -465,7 +487,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'Polygon Wallet',
         description: 'Send and receive crypto assets on Polygon network.',
         favorite: false,
@@ -475,7 +497,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 8,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
@@ -485,7 +507,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 9,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
