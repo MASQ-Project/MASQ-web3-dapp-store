@@ -190,6 +190,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_DefiLlama.png',
         },
       },
+      {
+        id: 8,
+        name: 'Balancer',
+        description:
+          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
+        favorite: false,
+        link: 'https://balancer.fi/',
+        icon: {
+          url: './assets/images/dapps/dapp_Balancer.png',
+        },
+      },
     ],
   },
   {
