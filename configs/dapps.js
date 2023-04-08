@@ -329,6 +329,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_Darkforest.png',
         },
       },
+      {
+        id: 5,
+        name: 'BetSwirl',
+        description:
+          "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
+        favorite: false,
+        link: 'https://www.betswirl.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_BetSwirl.png',
+        },
+      },
     ],
   },
   {
