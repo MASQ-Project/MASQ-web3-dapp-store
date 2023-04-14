@@ -335,7 +335,7 @@ export const categoriesData = [
         description:
           "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
         favorite: false,
-        link: 'https://www.betswirl.com/',
+        link: 'https://betswirl.eth.limo',
         icon: {
           url: './assets/images/dapps/dapp_BetSwirl.png',
         },
