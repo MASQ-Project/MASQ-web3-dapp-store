@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 12 Feb 2023
+// from MASQ-web3-store Public repo - modified 4 May 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.6
+// version 1.7
 export const categoriesData = [
   {
     id: 1,
@@ -190,17 +190,6 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_DefiLlama.png',
         },
       },
-      {
-        id: 8,
-        name: 'Balancer',
-        description:
-          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
-        favorite: false,
-        link: 'https://balancer.fi/',
-        icon: {
-          url: './assets/images/dapps/dapp_Balancer.png',
-        },
-      },
     ],
   },
   {
@@ -384,6 +373,17 @@ export const categoriesData = [
       },
       {
         id: 4,
+        name: 'Balancer',
+        description:
+          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
+        favorite: false,
+        link: 'https://balancer.fi/',
+        icon: {
+          url: './assets/images/dapps/dapp_Balancer.png',
+        },
+      },
+      {
+        id: 5,
         name: 'VarenX',
         description:
           'VarenX is a cross-chain exchange protocol built on Ren Network',
@@ -394,10 +394,10 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'Matcha',
         description:
-          'Matcha finds you the best prices across exchanges and combines them into one gassless trade.',
+          'Matcha finds you the best prices across exchanges and combines them into one gasless trade.',
         favorite: false,
         link: 'https://matcha.xyz/',
         icon: {
