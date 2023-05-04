@@ -1,7 +1,8 @@
 # MASQ web3 dApp Library Public Repository
 
 ## Vision
-MASQ stands to be the only truly decentralized-stack web3 privacy browser, powered by a community of supporters. To provide a fully fledged user experience to both web2 users transitioning into web3, and those native to web3, the MASQ contributors must foster and embrace an ecosystem of web3 builders, projects and partners. **Our vision at MASQ is to onboard and grow a rich ecosystem of the most innovative, user friendly and fundamental web3 partners and dApps to offer one-click discover and experience to the MASQ users of the world**
+MASQ stands to be the only truly decentralized-stack web3 privacy browser, powered by a community of supporters. To provide a fully fledged user experience to both web2 users transitioning into web3, and those native to web3, the MASQ contributors must foster and embrace an ecosystem of web3 builders, projects and partners.
+**Our vision at MASQ is to onboard and grow a rich ecosystem of the most innovative, user friendly and fundamental web3 partners and dApps to offer one-click discover and experience to the MASQ users of the world**
 
 ## Purpose
 Bundled into the MASQ web3 browser, there is a dedicated **web3 Store**
