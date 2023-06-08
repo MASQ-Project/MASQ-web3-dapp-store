@@ -17,7 +17,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         icon: {
-          url: './assets/images/dapps/MASQ_icon.png',
+          url: './assets/images/dapps/masq_icon.png',
         },
       },
       {
