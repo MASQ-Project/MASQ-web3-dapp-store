@@ -380,17 +380,6 @@ export const categoriesData = [
       },
       {
         id: 5,
-        name: 'VarenX',
-        description:
-          'VarenX is a cross-chain exchange protocol built on Ren Network',
-        favorite: false,
-        link: 'https://varenx.com/swap',
-        icon: {
-          url: './assets/images/dapps/dapp_Varenx.png',
-        },
-      },
-      {
-        id: 6,
         name: 'Matcha',
         description:
           'Matcha finds you the best prices across exchanges and combines them into one gasless trade.',
@@ -422,6 +411,17 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'Skiff',
+        description:
+          'End-to-end encrypted email, calendar, documents, and files that give you the power to communicate freely.',
+        favorite: false,
+        link: 'https://skiff.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_Skiff.png',
+        },
+      },
+      {
+        id: 3,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
