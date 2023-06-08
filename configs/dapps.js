@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 4 May 2023
+// from MASQ-web3-store Public repo - modified 8 June 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.7
+// version 1.8
 export const categoriesData = [
   {
     id: 1,
@@ -9,19 +9,30 @@ export const categoriesData = [
       url: './assets/images/dapps/discover.svg',
     },
     d_apps: [
-      {
+       {
         id: 1,
-        name: 'QuickSwap',
+        name: 'MASQ-GPT',
         description:
-          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
+          'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base.',
         favorite: false,
-        link: 'https://quickswap.exchange/',
+        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         icon: {
-          url: './assets/images/dapps/dapp_Quickswap.png',
+          url: './assets/images/dapps/MASQ_icon.png',
         },
       },
       {
         id: 2,
+        name: 'Balancer',
+        description:
+          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
+        favorite: false,
+        link: 'https://balancer.fi/',
+        icon: {
+          url: './assets/images/dapps/dapp_Balancer.png',
+        },
+      },
+      {
+        id: 3,
         name: 'Crucible',
         description:
            'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
@@ -36,7 +47,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 4,
         name: 'Akash',
         description:
           'Akash Network provides a fast, efficient and low-cost application deployment solution.',
@@ -47,7 +58,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
@@ -57,7 +68,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -68,7 +79,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -79,7 +90,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 8,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -94,7 +105,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 9,
         name: 'Fjord NFT',
         description:
           'Create or participate in NFT Fair Drops that are geared towards community discovery.',
