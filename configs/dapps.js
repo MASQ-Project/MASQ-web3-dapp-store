@@ -33,21 +33,6 @@ export const categoriesData = [
       },
       {
         id: 3,
-        name: 'Crucible',
-        description:
-           'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
-        favorite: false,
-        link: 'https://crucible.alchemist.wtf/',
-        icon: {
-          url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
-        },
-        coin: {
-          url: './assets/images/ethereum-pure.svg',
-          label: 'ETHEREUM',
-        },
-      },
-      {
-        id: 4,
         name: 'Akash',
         description:
           'Akash Network provides a fast, efficient and low-cost application deployment solution.',
@@ -58,7 +43,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 4,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
@@ -68,7 +53,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 5,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -79,7 +64,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -90,7 +75,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 7,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -105,7 +90,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 9,
+        id: 8,
         name: 'Fjord NFT',
         description:
           'Create or participate in NFT Fair Drops that are geared towards community discovery.',
