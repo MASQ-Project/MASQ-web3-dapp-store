@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 4 May 2023
+// from MASQ-web3-store Public repo - modified 8 June 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.7
+// version 1.8
 export const categoriesData = [
   {
     id: 1,
@@ -9,30 +9,26 @@ export const categoriesData = [
       url: './assets/images/dapps/discover.svg',
     },
     d_apps: [
-      {
+       {
         id: 1,
-        name: 'QuickSwap',
+        name: 'MASQ-GPT',
         description:
-          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
+          'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base.',
         favorite: false,
-        link: 'https://quickswap.exchange/',
+        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         icon: {
-          url: './assets/images/dapps/dapp_Quickswap.png',
+          url: './assets/images/dapps/masq_icon.png',
         },
       },
       {
         id: 2,
-        name: 'Crucible',
+        name: 'Balancer',
         description:
-           'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
+          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
         favorite: false,
-        link: 'https://crucible.alchemist.wtf/',
+        link: 'https://balancer.fi/',
         icon: {
-          url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
-        },
-        coin: {
-          url: './assets/images/ethereum-pure.svg',
-          label: 'ETHEREUM',
+          url: './assets/images/dapps/dapp_Balancer.png',
         },
       },
       {
