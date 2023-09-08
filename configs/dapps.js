@@ -382,7 +382,7 @@ export const categoriesData = [
         description:
           'End-to-end encrypted email, calendar, documents, and files that give you the power to communicate freely.',
         favorite: false,
-        link: 'https://skiff.com/',
+        link: 'https://skiff.com/?s=masq&c=masq',
         icon: {
           url: './assets/images/dapps/dapp_Skiff.png',
         },
