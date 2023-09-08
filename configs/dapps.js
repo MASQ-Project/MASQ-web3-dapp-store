@@ -325,6 +325,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_BetSwirl.png',
         },
       },
+      {
+        id: 6,
+        name: 'RevvRacing',
+        description:
+          "REVV Racing is an arcade simulation car racing blockchain game developed by Animoca Brands",
+        favorite: false,
+        link: 'https://revvracing.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_RevvRacing.png',
+        },
+      },
     ],
   },
   {
