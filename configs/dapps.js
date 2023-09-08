@@ -89,17 +89,6 @@ export const categoriesData = [
           label: 'NEO',
         },
       },
-      {
-        id: 8,
-        name: 'Fjord NFT',
-        description:
-          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
-        favorite: false,
-        link: 'https://fjordnfts.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_FjordNFT.png',
-        },
-      },
     ],
   },
   {
@@ -144,17 +133,6 @@ export const categoriesData = [
       },
       {
         id: 4,
-        name: 'Fjord Foundry',
-        description:
-          'Openly and fairly generate liquidity, via direct community participation in Liquidity Bootstrapping Pools.',
-        favorite: false,
-        link: 'https://fjordfoundry.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_Fjord.png',
-        },
-      },
-      {
-        id: 5,
         name: 'Zapper',
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
@@ -165,7 +143,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 5,
         name: 'Crucible',
         description:
           'A Crucible is an ERC-721 NFT that acts as a non-custodial universal wallet for DeFi',
@@ -176,7 +154,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'DefiLlama',
         description:
           'DefiLlama is a transparent DeFi TVL and analytics platform.',
@@ -219,17 +197,6 @@ export const categoriesData = [
       },
       {
         id: 3,
-        name: 'Fjord NFT',
-        description:
-          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
-        favorite: false,
-        link: 'https://fjordnfts.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_FjordNFT.png',
-        },
-      },
-      {
-        id: 4,
         name: 'Rarible',
         description:
           'Discover, sell and buy NFTs on Rarible! Whether it is Ethereum NFTs, Solana NFTs or Tezos NFTs, get them on first Web3 multichain marketplace.',
@@ -240,7 +207,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 4,
         name: 'Foundation',
         description:
           'Using the idea of the stock market & crypto to benefit creators and collectors directly.',
