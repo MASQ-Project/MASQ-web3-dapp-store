@@ -305,7 +305,7 @@ export const categoriesData = [
       },
       {
         id: 7,
-        name: 'Pregaxy',
+        name: 'Pegaxy',
         description:
           "Pegaxy (Pegasus Galaxy) is a racing game with futuristic mythological styling. Pega (the horses) are descendants of the mighty Pegasus.",
         favorite: false,
