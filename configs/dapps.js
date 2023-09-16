@@ -303,6 +303,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_RevvRacing.png',
         },
       },
+      {
+        id: 7,
+        name: 'Pegaxy',
+        description:
+          "Pegaxy (Pegasus Galaxy) is a racing game with futuristic mythological styling. Pega (the horses) are descendants of the mighty Pegasus.",
+        favorite: false,
+        link: 'https://pegaxy.io/',
+        icon: {
+          url: './assets/images/dapps/dapp_Pegaxy.png',
+        },
+      },
     ],
   },
   {
