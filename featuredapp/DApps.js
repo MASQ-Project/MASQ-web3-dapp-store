@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 11 March 2023
+// from MASQ-web3-store Public repo - modified 7 Oct 2023
 // to be imported to path: app/components/Main/DApps/DApps.js
-// version 1.2
+// version 2.0
 
 import React from 'react';
 import Categories from './Categories';
@@ -11,12 +11,7 @@ import { categoriesData } from '../../../configs/dapps.js';
 import feature1 from '../../../assets/images/dapps/dapp_feat1_masq_banner.png';
 import feature2 from '../../../assets/images/dapps/dapp_feat2_crucible-resized.png';
 import feature3 from '../../../assets/images/dapps/dapp_feat3_FlufWorld.png';
-
-import { useAppResolver } from '../../../hooks/ipc/appResolver';
-import { useDispatch } from 'react-redux';
-
-import { removeAppUrl } from '../../../reducers/launcher';
-
+import { addApp, removeApp } from '../../../utils/Launcher';
 import './DApps.scss';
 
 const Store = require('electron-store');
@@ -61,39 +56,26 @@ const featureAppData = [
 const DApps = () => {
     const [selectItem, setSelectItem] = React.useState({});
     const [categories, setCategories] = React.useState([]);
-    const [error, setError] = React.useState(null);
-    const [loading, setLoading] = React.useState(false);
     const [searchQuery, setSearchQuery] = React.useState('');
     const [appListData, setAppListData] = React.useState([]);
     const searchParams = ['name'];
-    const { addAppToLauncher } = useAppResolver();
-
-    const dispatch = useDispatch();
-
     React.useEffect(() => {
         setSelectItem(categoriesData[0]);
         setCategories(categoriesData);
     }, []);
 
     const handleClickFavorite = async (item, status) => {
-        const favorites = store.get('favorites');
+        if (!item || typeof item !== 'object') {
+            return;
+        }
         if (status) {
-            store.set('favorites', [...favorites, item]);
-            addAppToLauncher(item.link);
+            addApp(item);
         } else {
-            const arr = favorites.filter(app => app.name !== item.name);
-
-            store.set('favorites', arr);
-            const launcher = store.get('launcher.apps');
-
-            const launchArr = launcher.filter(app => app.link !== item.link);
-            dispatch(removeAppUrl(item.link));
-            store.set('favorites', launchArr);
-            store.set('launcher.apps', launchArr);
+            removeApp(item.link);
         }
     };
 
-    const handleSetQuery = (query) => {
+    const handleSetQuery = query => {
         setSearchQuery(query);
     };
 
@@ -119,22 +101,22 @@ const DApps = () => {
     }, [searchQuery, selectItem]);
 
     return (
-        <div className="dApps">
-        {/* <div className="dApps__gradient" /> */}
+        <div className='dApps'>
+            {/* <div className="dApps__gradient" /> */}
             <Categories
                 data={categories}
                 activeItem={selectItem}
-                setActiveItem={(item) => setSelectItem(item)}
+                setActiveItem={item => setSelectItem(item)}
                 setQuery={handleSetQuery}
                 searchQuery={searchQuery}
             />
             {selectItem.icon && categories.length > 0 && (
                 <AppStore
-                  category={selectItem}
-                  featureAppData={featureAppData}
-                  appListData={appListData}
-                  onClickFavorite={handleClickFavorite}
-                  searchQuery={searchQuery}
+                    category={selectItem}
+                    featureAppData={featureAppData}
+                    appListData={appListData}
+                    onClickFavorite={handleClickFavorite}
+                    searchQuery={searchQuery}
                 />
             )}
         </div>
