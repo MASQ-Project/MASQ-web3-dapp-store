@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 4 May 2023
+// from MASQ-web3-store Public repo - modified 8 June 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.7
+// version 1.8
 export const categoriesData = [
   {
     id: 1,
@@ -9,30 +9,26 @@ export const categoriesData = [
       url: './assets/images/dapps/discover.svg',
     },
     d_apps: [
-      {
+       {
         id: 1,
-        name: 'QuickSwap',
+        name: 'MASQ-GPT',
         description:
-          'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
+          'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base.',
         favorite: false,
-        link: 'https://quickswap.exchange/',
+        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         icon: {
-          url: './assets/images/dapps/dapp_Quickswap.png',
+          url: './assets/images/dapps/masq_icon.png',
         },
       },
       {
         id: 2,
-        name: 'Crucible',
+        name: 'Balancer',
         description:
-           'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
+          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
         favorite: false,
-        link: 'https://crucible.alchemist.wtf/',
+        link: 'https://balancer.fi/',
         icon: {
-          url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
-        },
-        coin: {
-          url: './assets/images/ethereum-pure.svg',
-          label: 'ETHEREUM',
+          url: './assets/images/dapps/dapp_Balancer.png',
         },
       },
       {
@@ -93,17 +89,6 @@ export const categoriesData = [
           label: 'NEO',
         },
       },
-      {
-        id: 8,
-        name: 'Fjord NFT',
-        description:
-          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
-        favorite: false,
-        link: 'https://fjordnfts.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_FjordNFT.png',
-        },
-      },
     ],
   },
   {
@@ -148,17 +133,6 @@ export const categoriesData = [
       },
       {
         id: 4,
-        name: 'Fjord Foundry',
-        description:
-          'Openly and fairly generate liquidity, via direct community participation in Liquidity Bootstrapping Pools.',
-        favorite: false,
-        link: 'https://fjordfoundry.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_Fjord.png',
-        },
-      },
-      {
-        id: 5,
         name: 'Zapper',
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
@@ -169,7 +143,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 5,
         name: 'Crucible',
         description:
           'A Crucible is an ERC-721 NFT that acts as a non-custodial universal wallet for DeFi',
@@ -180,7 +154,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'DefiLlama',
         description:
           'DefiLlama is a transparent DeFi TVL and analytics platform.',
@@ -223,17 +197,6 @@ export const categoriesData = [
       },
       {
         id: 3,
-        name: 'Fjord NFT',
-        description:
-          'Create or participate in NFT Fair Drops that are geared towards community discovery.',
-        favorite: false,
-        link: 'https://fjordnfts.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_FjordNFT.png',
-        },
-      },
-      {
-        id: 4,
         name: 'Rarible',
         description:
           'Discover, sell and buy NFTs on Rarible! Whether it is Ethereum NFTs, Solana NFTs or Tezos NFTs, get them on first Web3 multichain marketplace.',
@@ -244,7 +207,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 4,
         name: 'Foundation',
         description:
           'Using the idea of the stock market & crypto to benefit creators and collectors directly.',
@@ -329,6 +292,28 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_BetSwirl.png',
         },
       },
+      {
+        id: 6,
+        name: 'RevvRacing',
+        description:
+          "REVV Racing is an arcade simulation car racing blockchain game developed by Animoca Brands",
+        favorite: false,
+        link: 'https://revvracing.com/',
+        icon: {
+          url: './assets/images/dapps/dapp_RevvRacing.png',
+        },
+      },
+      {
+        id: 7,
+        name: 'Pegaxy',
+        description:
+          "Pegaxy (Pegasus Galaxy) is a racing game with futuristic mythological styling. Pega (the horses) are descendants of the mighty Pegasus.",
+        favorite: false,
+        link: 'https://pegaxy.io/',
+        icon: {
+          url: './assets/images/dapps/dapp_Pegaxy.png',
+        },
+      },
     ],
   },
   {
@@ -384,17 +369,6 @@ export const categoriesData = [
       },
       {
         id: 5,
-        name: 'VarenX',
-        description:
-          'VarenX is a cross-chain exchange protocol built on Ren Network',
-        favorite: false,
-        link: 'https://varenx.com/swap',
-        icon: {
-          url: './assets/images/dapps/dapp_Varenx.png',
-        },
-      },
-      {
-        id: 6,
         name: 'Matcha',
         description:
           'Matcha finds you the best prices across exchanges and combines them into one gasless trade.',
@@ -426,6 +400,17 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'Skiff',
+        description:
+          'End-to-end encrypted email, calendar, documents, and files that give you the power to communicate freely.',
+        favorite: false,
+        link: 'https://skiff.com/?s=masq&c=masq',
+        icon: {
+          url: './assets/images/dapps/dapp_Skiff.png',
+        },
+      },
+      {
+        id: 3,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
