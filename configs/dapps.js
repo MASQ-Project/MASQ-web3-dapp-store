@@ -314,6 +314,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_Pegaxy.png',
         },
       },
+      {
+        id: 8,
+        name: 'Dragonmaster',
+        description:
+          "Dragon Master is the first blockchain-based Metaverse game that blends RTS, MOBA, Collection, and Play-to-Earn gameplay.",
+        favorite: false,
+        link: 'https://dragonmaster.co/',
+        icon: {
+          url: './assets/images/dapps/dapp_Dragonmaster.png',
+        },
+      },
     ],
   },
   {
