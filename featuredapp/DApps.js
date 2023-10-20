@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 7 Oct 2023
+// from MASQ-web3-store Public repo - modified 21 Oct 2023
 // to be imported to path: app/components/Main/DApps/DApps.js
-// version 2.0
+// version 2.1
 
 import React from 'react';
 import Categories from './Categories';
@@ -20,9 +20,9 @@ const store = new Store();
 const featureAppData = [
   {
     name: 'MASQ Network',
-    link: 'https://masq.ai/',
+    link: 'https://masqbrowser.com/',
     description:
-      'Discover how MASQ is building the borderless browser for the web3 ecosystem',
+      'Explore how MASQ browser offers a borderless browsing experience for the web3 ecosystem',
     banner: feature1,
     favorite: false,
     icon: {

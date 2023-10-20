@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 8 June 2023
+// from MASQ-web3-store Public repo - modified 21 Oct 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.8
+// version 1.9
 export const categoriesData = [
   {
     id: 1,
@@ -312,6 +312,17 @@ export const categoriesData = [
         link: 'https://pegaxy.io/',
         icon: {
           url: './assets/images/dapps/dapp_Pegaxy.png',
+        },
+      },
+      {
+        id: 8,
+        name: 'Dragonmaster',
+        description:
+          "Dragon Master is the first blockchain-based Metaverse game that blends RTS, MOBA, Collection, and Play-to-Earn gameplay.",
+        favorite: false,
+        link: 'https://dragonmaster.co/',
+        icon: {
+          url: './assets/images/dapps/dapp_Dragonmaster.png',
         },
       },
     ],
