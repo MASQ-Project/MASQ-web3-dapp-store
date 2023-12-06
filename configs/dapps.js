@@ -368,6 +368,17 @@ export const categoriesData = [
       },
       {
         id: 5,
+        name: 'Telcoin',
+        description:
+          'Telcoin App is a mobile access point to the entire suite of user-owned Telcoin products, including a fast and affordable fiat remittance portal and a digital wallet on the Polygon Network.',
+        favorite: false,
+        link: 'https://www.telx.network/?ref=masq',
+        icon: {
+          url: './assets/images/dapps/dapp_Telcoin.png',
+        },
+      },
+      {
+        id: 6,
         name: 'Matcha',
         description:
           'Matcha finds you the best prices across exchanges and combines them into one gasless trade.',
@@ -378,7 +389,7 @@ export const categoriesData = [
         },
       },
       {
-      id: 6,
+      id: 7,
       name: 'Sushiswap',
       description:
         'Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform',
