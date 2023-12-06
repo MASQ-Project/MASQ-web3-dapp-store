@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 21 Oct 2023
+// from MASQ-web3-store Public repo - modified 6 Dec 2023
 // to be imported to path: app/configs/dapps.js
-// version 1.9
+// version 2.0
 export const categoriesData = [
   {
     id: 1,
@@ -33,13 +33,12 @@ export const categoriesData = [
       },
       {
         id: 3,
-        name: 'Akash',
-        description:
-          'Akash Network provides a fast, efficient and low-cost application deployment solution.',
+        name: 'Presearch',
+        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
         favorite: false,
-        link: 'https://akash.network/',
+        link: 'https://presearch.com',
         icon: {
-          url: './assets/images/dapps/dapp_Akash.png',
+          url: './assets/images/dapps/dapp_Presearch.png',
         },
       },
       {
@@ -271,7 +270,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'DarkForest',
         description:
           "Dark Forest, the world's first decentralized real-time strategy game. Built on Ethereum.",
@@ -282,7 +281,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'BetSwirl',
         description:
           "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
@@ -290,17 +289,6 @@ export const categoriesData = [
         link: 'https://betswirl.eth.limo',
         icon: {
           url: './assets/images/dapps/dapp_BetSwirl.png',
-        },
-      },
-      {
-        id: 6,
-        name: 'RevvRacing',
-        description:
-          "REVV Racing is an arcade simulation car racing blockchain game developed by Animoca Brands",
-        favorite: false,
-        link: 'https://revvracing.com/',
-        icon: {
-          url: './assets/images/dapps/dapp_RevvRacing.png',
         },
       },
       {
@@ -336,6 +324,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
+        name: 'Uniswap',
+        description:
+          'Swap, earn, and build on the leading decentralized crypto trading protocol.',
+        favorite: false,
+        link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
+        icon: {
+          url: './assets/images/dapps/dapp_uniswap.png',
+        },
+      },
+      {
+        id: 2,
         name: 'QuickSwap',
         description:
           'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
@@ -346,25 +345,14 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
-        name: 'Sushiswap',
-        description:
-          'Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform',
-        favorite: false,
-        link: 'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x06F3C323f0238c72BF35011071f2b5B7F43A054c',
-        icon: {
-          url: './assets/images/dapps/dapp_Sushiswap.png',
-        },
-      },
-      {
         id: 3,
-        name: 'Uniswap',
+        name: 'Dextools',
         description:
-          'Swap, earn, and build on the leading decentralized crypto trading protocol.',
+          'DEXTools boosts your exchange experience! Real-time data analysis at the tips of your fingers.',
         favorite: false,
-        link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
+        link: 'https://www.dextools.io/app',
         icon: {
-          url: './assets/images/dapps/dapp_uniswap.png',
+          url: './assets/images/dapps/dapp_Dextools.png',
         },
       },
       {
@@ -389,6 +377,17 @@ export const categoriesData = [
           url: './assets/images/dapps/dapp_Matcha.png',
         },
       },
+      {
+      id: 6,
+      name: 'Sushiswap',
+      description:
+        'Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform',
+      favorite: false,
+      link: 'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x06F3C323f0238c72BF35011071f2b5B7F43A054c',
+      icon: {
+        url: './assets/images/dapps/dapp_Sushiswap.png',
+        },
+      },
     ],
   },
   {
@@ -400,7 +399,7 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
-        name: 'Youtube',
+        name: 'YouTube',
         description:
           'The place to watch videos from your favorite content creators all around the world.',
         favorite: false,
@@ -442,17 +441,6 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
-        name: 'Dextools',
-        description:
-          'DEXTools boosts your exchange experience! Real-time data analysis at the tips of your fingers.',
-        favorite: false,
-        link: 'https://www.dextools.io/app',
-        icon: {
-          url: './assets/images/dapps/dapp_Dextools.png',
-        },
-      },
-      {
-        id: 2,
         name: 'Akash',
         description:
           'Akash Network provides a fast, efficient and low-cost application deployment solution.',
@@ -460,6 +448,16 @@ export const categoriesData = [
         link: 'https://akash.network/',
         icon: {
           url: './assets/images/dapps/dapp_Akash.png',
+        },
+      },
+      {
+        id: 2,
+        name: 'Presearch',
+        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
+        favorite: false,
+        link: 'https://presearch.com',
+        icon: {
+          url: './assets/images/dapps/dapp_Presearch.png',
         },
       },
       {
@@ -555,16 +553,6 @@ export const categoriesData = [
       },
       {
         id: 2,
-        name: 'Presearch',
-        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
-        favorite: false,
-        link: 'https://presearch.com',
-        icon: {
-          url: './assets/images/dapps/dapp_Presearch.png',
-        },
-      },
-      {
-        id: 3,
         name: 'alXandria',
         description: 'alXandria is an online, open-source, collaborative encyclopedic effort.',
         favorite: false,
