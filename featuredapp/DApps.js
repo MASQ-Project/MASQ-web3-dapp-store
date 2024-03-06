@@ -1,7 +1,6 @@
-// from MASQ-web3-store Public repo - modified 28 Dec 2023
-// to be imported to path: app/components/Main/DApps/DApps.js
-// version 3.0
-// matched with React-App draggable window component upgrade
+// from MASQ-web3-store Public repo - modified 6 Mar 2024
+// to be imported to path: app/renderer/components/Main/DApps/DApps.js
+// version 3.1
 
 import React from 'react';
 import Categories from './Categories';
@@ -16,10 +15,7 @@ import { addApp, removeAppFunc } from '../../../utils/Launcher';
 import './DApps.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleDock } from '../../../reducers/launcher';
-
-const Store = require('electron-store');
-const store = new Store();
-
+import dapps from '../../../assets/images/dapps';
 const featureAppData = [
     // {
     //     name: 'MASQ Network',
@@ -62,8 +58,8 @@ const DApps = (props) => {
     const [categories, setCategories] = React.useState([]);
     const [searchQuery, setSearchQuery] = React.useState('');
     const [appListData, setAppListData] = React.useState([]);
-    const storeApps = store.get('launcher.apps')[store.get('workspace')]
-    const presenceArray = appListData.map(itemB => storeApps.some(itemA => itemA.name === itemB.name));
+    const storeApps = window.api.getStoreValue('launcher.apps')[window.api.getStoreValue('workspace')]
+    const presenceArray = appListData.map(itemB => storeApps.some(itemA => itemA.link.includes(itemB.name.toLowerCase())));
     const searchParams = ['name'];
     React.useEffect(() => {
         setSelectItem(categoriesData[0]);
@@ -71,7 +67,6 @@ const DApps = (props) => {
     }, []);
     const dispatch = useDispatch()
     const truthy = useSelector(state => state.launcher.truthy)
-
     const handleClickFavorite = async (item, status) => {
         if (!item || typeof item !== 'object') {
             return;
@@ -96,7 +91,8 @@ const DApps = (props) => {
         if (searchQuery === '')
             return setAppListData(selectItem.d_apps ? selectItem.d_apps : []);
         let appList = [];
-        categories.forEach(category =>
+        categories.forEach(category => {
+            console.log(category)
             category.d_apps.forEach(item => {
                 if (
                     searchParams.some(param =>
@@ -109,6 +105,8 @@ const DApps = (props) => {
                     appList.push(item);
                 }
             })
+        }
+
         );
         setAppListData(appList);
     }, [searchQuery, selectItem]);

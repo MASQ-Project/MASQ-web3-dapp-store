@@ -1,12 +1,14 @@
-// from MASQ-web3-store Public repo - modified 6 Dec 2023
-// to be imported to path: app/configs/dapps.js
-// version 2.0
+// from MASQ-web3-store Public repo - modified 29 Feb 2024
+// to be imported to path: app/renderer/configs/dapps.js
+// version 3.0
+
+import dapps from "../assets/images/dapps";
 export const categoriesData = [
   {
     id: 1,
     name: 'Discover',
     icon: {
-      url: './assets/images/dapps/discover.svg',
+      url: dapps.discover,
     },
     d_apps: [
        {
@@ -17,18 +19,18 @@ export const categoriesData = [
         favorite: false,
         link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         icon: {
-          url: './assets/images/dapps/masq_icon.png',
+          url: dapps.masq_icon,
         },
       },
       {
         id: 2,
-        name: 'Balancer',
+        name: 'QuickSwap',
         description:
-          'Balancer Finance is an Ethereum-based automated market maker that enables customizable token pools and fee-free trading for liquidity providers.',
+            'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
         favorite: false,
-        link: 'https://balancer.fi/',
+        link: 'https://quickswap.exchange/',
         icon: {
-          url: './assets/images/dapps/dapp_Balancer.png',
+            url: dapps.quickSwap,
         },
       },
       {
@@ -38,7 +40,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://presearch.com',
         icon: {
-          url: './assets/images/dapps/dapp_Presearch.png',
+          url: dapps.presearch,
         },
       },
       {
@@ -48,7 +50,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://frame.sh/',
         icon: {
-          url: './assets/images/dapps/dapp_FrameWallet.png',
+          url: dapps.frameWallet,
         },
       },
       {
@@ -59,7 +61,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://filebase.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Filebase.png',
+          url: dapps.filebase,
         },
       },
       {
@@ -70,7 +72,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://dm3.network/',
         icon: {
-          url: './assets/images/dapps/dapp_dm3.png',
+          url: dapps.dm3,
         },
       },
       {
@@ -81,7 +83,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://opensea.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Opensea.png',
+          url: dapps.opensea,
         },
         coin: {
           url: './assets/images/neo.svg',
@@ -94,7 +96,7 @@ export const categoriesData = [
     id: 2,
     name: 'DeFi',
     icon: {
-      url: './assets/images/dapps/defi.svg',
+      url: dapps.defi,
     },
     d_apps: [
       {
@@ -105,7 +107,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://app.aave.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Aave.png',
+          url: dapps.aave,
         },
       },
       {
@@ -116,7 +118,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://bancor.network/',
         icon: {
-          url: './assets/images/dapps/dapp_Bancor.png',
+          url: dapps.bancor,
         },
       },
       {
@@ -127,7 +129,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://pooltogether.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Pooltogether.png',
+          url: dapps.poolTogether,
         },
       },
       {
@@ -138,7 +140,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://zapper.fi/',
         icon: {
-          url: './assets/images/dapps/dapp_Zapper.png',
+          url: dapps.zapper,
         },
       },
       {
@@ -149,7 +151,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://crucible.alchemist.wtf/',
         icon: {
-          url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
+          url: dapps.crucible,
         },
       },
       {
@@ -160,7 +162,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://defillama.com/',
         icon: {
-          url: './assets/images/dapps/dapp_DefiLlama.png',
+          url: dapps.defillama,
         },
       },
     ],
@@ -169,7 +171,7 @@ export const categoriesData = [
     id: 3,
     name: 'Art & Collectables',
     icon: {
-      url: './assets/images/dapps/art-collectables.svg',
+      url: dapps.artsCollectibles,
     },
     d_apps: [
       {
@@ -180,7 +182,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://opensea.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Opensea.png',
+          url: dapps.opensea,
         },
       },
       {
@@ -191,7 +193,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://under.fluf.world',
         icon: {
-          url: './assets/images/dapps/dapp_FlufWorld.png',
+          url: dapps.flufWorld,
         },
       },
       {
@@ -202,7 +204,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://rarible.com',
         icon: {
-          url: './assets/images/dapps/dapp_Rarible.png',
+          url: dapps.rarible,
         },
       },
       {
@@ -213,7 +215,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://foundation.app/',
         icon: {
-          url: './assets/images/dapps/dapp_Foundation.png',
+          url: dapps.foundation,
         },
       }, 
     ],
@@ -222,7 +224,7 @@ export const categoriesData = [
     id: 4,
     name: 'Games',
     icon: {
-      url: './assets/images/dapps/games.svg',
+      url: dapps.games,
     },
     d_apps: [
       {
@@ -233,7 +235,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://decentraland.org',
         icon: {
-          url: './assets/images/dapps/dapp_Decentraland.png',
+          url: dapps.decentraland,
         },
       },
       {
@@ -244,7 +246,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://aifa.football',
         icon: {
-          url: './assets/images/dapps/dapp_AIFA.png',
+          url: dapps.aifa,
         },
       },
       {
@@ -255,7 +257,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://arc8.gamee.com',
         icon: {
-          url: './assets/images/dapps/dapp_Arc8.png',
+          url: dapps.arc8,
         },
       },
       {
@@ -266,7 +268,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://www.cryptovoxels.com/',
         icon: {
-          url: './assets/images/dapps/dapp_CryptoVoxels.png',
+          url: dapps.cryptoVoxels,
         },
       },
       {
@@ -277,7 +279,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://zkga.me/',
         icon: {
-          url: './assets/images/dapps/dapp_Darkforest.png',
+          url: dapps.darkForest,
         },
       },
       {
@@ -288,7 +290,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://betswirl.eth.limo',
         icon: {
-          url: './assets/images/dapps/dapp_BetSwirl.png',
+          url: dapps.betSwirl,
         },
       },
       {
@@ -299,7 +301,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://pegaxy.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Pegaxy.png',
+          url: dapps.pegaxy,
         },
       },
       {
@@ -310,7 +312,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://dragonmaster.co/',
         icon: {
-          url: './assets/images/dapps/dapp_Dragonmaster.png',
+          url: dapps.dragonmaster,
         },
       },
     ],
@@ -319,7 +321,7 @@ export const categoriesData = [
     id: 5,
     name: 'Exchanges',
     icon: {
-      url: './assets/images/dapps/exchanges.svg',
+      url: dapps.exchanges,
     },
     d_apps: [
       {
@@ -330,7 +332,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
         icon: {
-          url: './assets/images/dapps/dapp_uniswap.png',
+          url: dapps.uniswap,
         },
       },
       {
@@ -341,7 +343,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://quickswap.exchange/',
         icon: {
-          url: './assets/images/dapps/dapp_Quickswap.png',
+          url: dapps.quickSwap,
         },
       },
       {
@@ -352,7 +354,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://www.dextools.io/app',
         icon: {
-          url: './assets/images/dapps/dapp_Dextools.png',
+          url: dapps.dextools,
         },
       },
       {
@@ -363,7 +365,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://balancer.fi/',
         icon: {
-          url: './assets/images/dapps/dapp_Balancer.png',
+          url: dapps.balancer,
         },
       },
       {
@@ -374,7 +376,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://www.telx.network/?ref=masq',
         icon: {
-          url: './assets/images/dapps/dapp_Telcoin.png',
+          url: dapps.telcoin,
         },
       },
       {
@@ -385,7 +387,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://matcha.xyz/',
         icon: {
-          url: './assets/images/dapps/dapp_Matcha.png',
+          url: dapps.matcha,
         },
       },
       {
@@ -396,7 +398,7 @@ export const categoriesData = [
       favorite: false,
       link: 'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x06F3C323f0238c72BF35011071f2b5B7F43A054c',
       icon: {
-        url: './assets/images/dapps/dapp_Sushiswap.png',
+        url: dapps.sushiSwap,
         },
       },
     ],
@@ -405,7 +407,7 @@ export const categoriesData = [
     id: 6,
     name: 'Social',
     icon: {
-      url: './assets/images/dapps/social.svg',
+      url: dapps.social,
     },
     d_apps: [
       {
@@ -416,18 +418,18 @@ export const categoriesData = [
         favorite: false,
         link: 'https://youtube.com',
         icon: {
-          url: './assets/images/dapps/dapp_Youtube.png',
+          url: dapps.youtube,
         },
       },
       {
         id: 2,
-        name: 'Skiff',
+        name: 'Skiff (sunsetting)',
         description:
-          'End-to-end encrypted email, calendar, documents, and files that give you the power to communicate freely.',
+          'Skiff is sunsetting their platform aroiund July 2024.',
         favorite: false,
-        link: 'https://skiff.com/?s=masq&c=masq',
+        link: 'https://skiff.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Skiff.png',
+          url: dapps.skiff,
         },
       },
       {
@@ -438,7 +440,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://dm3.network/',
         icon: {
-          url: './assets/images/dapps/dapp_dm3.png',
+          url: dapps.dm3,
         },
       },
     ],
@@ -447,7 +449,7 @@ export const categoriesData = [
     id: 7,
     name: 'Utilities',
     icon: {
-      url: './assets/images/dapps/utilities.svg',
+      url: dapps.utilities,
     },
     d_apps: [
       {
@@ -458,7 +460,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://akash.network/',
         icon: {
-          url: './assets/images/dapps/dapp_Akash.png',
+          url: dapps.Akash,
         },
       },
       {
@@ -468,7 +470,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://presearch.com',
         icon: {
-          url: './assets/images/dapps/dapp_Presearch.png',
+          url: dapps.presearch,
         },
       },
       {
@@ -479,7 +481,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://filebase.com/',
         icon: {
-          url: './assets/images/dapps/dapp_Filebase.png',
+          url: dapps.filebase,
         },
       },
       {
@@ -489,7 +491,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://ens.domains',
         icon: {
-          url: './assets/images/dapps/dapp_ENS.png',
+          url: dapps.ens,
         },
       },
       {
@@ -500,47 +502,47 @@ export const categoriesData = [
         favorite: false,
         link: 'https://ethplorer.io/',
         icon: {
-          url: './assets/images/dapps/dapp_Ethplorer.png',
+          url: dapps.ethExplorer,
         },
       },
       {
         id: 6,
-        name: 'Polygon Bridge',
-        description: 'Deposit and Withdraw tokens between Ethereum and Polygon',
+        name: 'Polygon Portal',
+        description: 'Manage, bridge, swap and receive crypto assets on Polygon network.',
         favorite: false,
-        link: 'https://wallet.polygon.technology/login?next=%2Fbridge',
+        link: 'https://portal.polygon.technology/',
         icon: {
-          url: './assets/images/dapps/dapp_PolygonBridge.png',
+          url: dapps.polygonWallet,
         },
       },
       {
         id: 7,
-        name: 'Polygon Wallet',
-        description: 'Send and receive crypto assets on Polygon network.',
-        favorite: false,
-        link: 'https://wallet.polygon.technology/login?next=%2Fwallet',
-        icon: {
-          url: './assets/images/dapps/dapp_PolygonWallet.png',
-        },
-      },
-      {
-        id: 8,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
         link: 'https://www.coingecko.com',
         icon: {
-          url: './assets/images/dapps/dapp_CoinGecko.png',
+          url: dapps.coingecko,
         },
       },
       {
-        id: 9,
+        id: 8,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
         link: 'https://frame.sh/',
         icon: {
-          url: './assets/images/dapps/dapp_FrameWallet.png',
+          url: dapps.frameWallet,
+        },
+      },
+      {
+        id: 9,
+        name: 'Rabby',
+        description: 'The game-changing wallet for Ethereum and all EVM chains.',
+        favorite: false,
+        link: 'https://rabby.io/',
+        icon: {
+          url: dapps.rabby,
         },
       },
     ],
@@ -549,7 +551,7 @@ export const categoriesData = [
     id: 8,
     name: 'Other',
     icon: {
-      url: './assets/images/dapps/other.svg',
+      url: dapps.other,
     },
     d_apps: [
       {
@@ -559,7 +561,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://ethereum.org/en/web3/',
         icon: {
-          url: './assets/images/dapps/dapp_Ethereum.png',
+          url: dapps.ethereum,
         },
       },
       {
@@ -569,7 +571,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://alxandria.org',
         icon: {
-          url: './assets/images/dapps/dapp_alXandria.png',
+          url: dapps.alxandria,
         },
       },
     ],
