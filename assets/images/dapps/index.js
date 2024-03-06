@@ -20,7 +20,7 @@ import zapper from './dapp_Zapper.png'
 import artsCollectibles from './art-collectables.svg'
 import flufWorld from './dapp_feat3_FlufWorld.png'
 import frameWallet from './dapp_FrameWallet.png'
-import rabby from './renderer/assets/images/browser-settings/rabby-32.png'
+import rabby from './dapp_Rabby.png'
 import rarible from './rarible-icon.png'
 import foundation from './dapp_Foundation.png'
 import games from './games.svg'
@@ -56,6 +56,7 @@ import presearch from './dapp_Presearch.png'
 
 export default {
     discover,
+    masq_icon,
     quickSwap,
     crucible,
     crucibleEthPure,
