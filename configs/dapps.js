@@ -75,7 +75,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7
+        id: 7,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
