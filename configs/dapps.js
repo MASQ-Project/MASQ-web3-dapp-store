@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 29 Feb 2024
+// from MASQ-web3-store Public repo - modified 13 Mar 2024
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.0
+// version 3.1
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -45,16 +45,26 @@ export const categoriesData = [
       },
       {
         id: 4,
-        name: 'Frame',
-        description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
+        name: 'Handshake',
+        description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
-        link: 'https://frame.sh/',
+        link: 'https://handshake.org',
         icon: {
-          url: dapps.frameWallet,
+          url: dapps.handshake,
         },
       },
       {
         id: 5,
+        name: 'Rabby',
+        description: 'The game-changing wallet for Ethereum and all EVM chains.',
+        favorite: false,
+        link: 'https://rabby.io/',
+        icon: {
+          url: dapps.rabby,
+        },
+      },
+      {
+        id: 6,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -65,7 +75,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -76,7 +86,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 8,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -492,6 +502,16 @@ export const categoriesData = [
         link: 'https://ens.domains',
         icon: {
           url: dapps.ens,
+        },
+      },
+      {
+        id: 4,
+        name: 'Handshake',
+        description: 'Decentralised naming for wallets, websites, & more',
+        favorite: false,
+        link: 'https://handshake.org',
+        icon: {
+          url: dapps.handshake,
         },
       },
       {

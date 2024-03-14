@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - 6 March 2024
+// from MASQ-web3-store Public repo - 13 March 2024
 // to be imported to path: app/renderer/assets/images/dapps
-// version 1.0
+// version 1.1
 
 import discover from './discover.svg'
 import crucible from './dapp_CrucibleByAlchemist.png'
@@ -53,6 +53,7 @@ import other from './other.svg'
 import ethereum from './dapp_Ethereum.png'
 import alxandria from './dapp_alXandria.png'
 import presearch from './dapp_Presearch.png'
+import handshake from './dapp_Handshake.png'
 
 export default {
     discover,
@@ -105,5 +106,6 @@ export default {
     other,
     ethereum,
     alxandria,
-    presearch
+    presearch,
+    handshake
 }
