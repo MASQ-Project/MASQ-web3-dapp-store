@@ -13,7 +13,7 @@ export const categoriesData = [
     d_apps: [
        {
         id: 1,
-        name: 'MASQ-GPT',
+        name: 'MASQ.AI',
         description:
           'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base.',
         favorite: false,
