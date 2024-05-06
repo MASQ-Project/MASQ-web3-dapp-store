@@ -17,37 +17,15 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toggleDock } from '../../../reducers/launcher';
 import dapps from '../../../assets/images/dapps';
 const featureAppData = [
-    // {
-    //     name: 'MASQ Network',
-    //     link: 'https://masq.ai/',
-    //     description:
-    //         'Discover how MASQ is building the borderless browser for the web3 ecosystem',
-    //     banner: feature1,
-    //     favorite: false,
-    //     icon: {
-    //         url: './assets/images/dapps/dapp_feat1_masq_banner.png',
-    //     },
-    // },
     {
-        name: 'Crucible',
-        link: 'https://crucible.alchemist.wtf/',
+        name: 'MASQ.AI',
+        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         description:
-            'A Crucible is an ERC-721 NFT that acts as a universal wallet for DeFi',
-        banner: feature2,
+            'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base',
+        banner: feature1,
         favorite: false,
         icon: {
-            url: './assets/images/dapps/dapp_CrucibleByAlchemist.png',
-        },
-    },
-    {
-        name: 'Fluf World',
-        link: 'https://fluf.world/',
-        description:
-            'Fluf World is a metaverse ecosystem of NFT character collectables and a global, creative community.',
-        banner: feature3,
-        favorite: false,
-        icon: {
-            url: './assets/images/dapps/dapp_FlufWorld.png',
+            url: dapps.masq_icon,
         },
     },
 ];
