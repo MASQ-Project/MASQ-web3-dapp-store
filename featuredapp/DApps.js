@@ -19,13 +19,13 @@ import dapps from '../../../assets/images/dapps';
 const featureAppData = [
     {
         name: 'MASQ.AI',
-        link: 'https://masq.ai/',
+        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
         description:
             'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base',
         banner: feature1,
         favorite: false,
         icon: {
-            url: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
+            url: dapps.masq_icon,
         },
     },
 ];
