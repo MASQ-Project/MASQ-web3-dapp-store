@@ -425,7 +425,7 @@ export const categoriesData = [
         id: 1,
         name: 'Welcome Onchain',
         description:
-          'Welcome on chain is a permissionless platform that brings together the working heartbeat of the crypto community.',
+          'Welcome Onchain is a permissionless platform that brings together the working heartbeat of the crypto community.',
         favorite: false,
         link: 'https://www.welcomeonchain.xyz',
         icon: {
