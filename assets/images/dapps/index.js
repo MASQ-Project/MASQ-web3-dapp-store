@@ -54,6 +54,10 @@ import ethereum from './dapp_Ethereum.png'
 import alxandria from './dapp_alXandria.png'
 import presearch from './dapp_Presearch.png'
 import handshake from './dapp_Handshake.png'
+import fileverse from './dapp_fileverse.png'
+import hey from './dapp_hey.png'
+import hamster_kombat from './dapp_hamster_kombat.png'
+import welcome_onchain from './dapp_welcome_onchain.png'
 
 export default {
     discover,
@@ -107,5 +111,9 @@ export default {
     ethereum,
     alxandria,
     presearch,
-    handshake
+    handshake,
+    hey,
+    fileverse,
+    hamster_kombat,
+    welcome_onchain
 }
