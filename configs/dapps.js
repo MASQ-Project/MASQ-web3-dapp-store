@@ -55,16 +55,6 @@ export const categoriesData = [
       },
       {
         id: 5,
-        name: 'Rabby',
-        description: 'The game-changing wallet for Ethereum and all EVM chains.',
-        favorite: false,
-        link: 'https://rabby.io/',
-        icon: {
-          url: dapps.rabby,
-        },
-      },
-      {
-        id: 6,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -75,7 +65,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -86,7 +76,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 7,
         name: 'Opensea',
         description:
           'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
@@ -239,6 +229,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
+        name: 'Hamster Kombat',
+        description:
+          'Make your way from the shaved hamster to the grandmaster CEO of the tier-1 crypto exchange',
+        favorite: false,
+        link: 'https://hamsterkombatgame.io',
+        icon: {
+          url: dapps.hamster_kombat,
+        },
+      },
+      {
+        id: 1,
         name: 'Decentraland',
         description:
           'Determine the future of a virtual world, in the first fully decentralized digi-verse, Decentraland',
@@ -250,6 +251,17 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'BetSwirl',
+        description:
+          "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
+        favorite: false,
+        link: 'https://betswirl.eth.limo',
+        icon: {
+          url: dapps.betSwirl,
+        },
+      },
+      {
+        id: 3,
         name: 'AIFA',
         description:
           'Create your own AIFA All-Stars, powered by ASM Brains. Play for rankings, Play-and-Earn, or just for fun.',
@@ -260,7 +272,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 4,
         name: 'Arc8',
         description:
           'Arc8 by GAMEE brings the blockchain experience to millions of gamers - Powered by Polygon',
@@ -271,7 +283,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'CryptoVoxels',
         description:
           'Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain.',
@@ -282,7 +294,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'DarkForest',
         description:
           "Dark Forest, the world's first decentralized real-time strategy game. Built on Ethereum.",
@@ -290,17 +302,6 @@ export const categoriesData = [
         link: 'https://zkga.me/',
         icon: {
           url: dapps.darkForest,
-        },
-      },
-      {
-        id: 6,
-        name: 'BetSwirl',
-        description:
-          "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
-        favorite: false,
-        link: 'https://betswirl.eth.limo',
-        icon: {
-          url: dapps.betSwirl,
         },
       },
       {
@@ -422,28 +423,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
-        name: 'YouTube',
+        name: 'Welcome Onchain',
         description:
-          'The place to watch videos from your favorite content creators all around the world.',
+          'Welcome on chain is a permissionless platform that brings together the working heartbeat of the crypto community.',
         favorite: false,
-        link: 'https://youtube.com',
+        link: 'https://www.welcomeonchain.xyz',
         icon: {
-          url: dapps.youtube,
+          url: dapps.welcome_onchain,
         },
       },
       {
         id: 2,
-        name: 'Skiff (sunsetting)',
-        description:
-          'Skiff is sunsetting their platform aroiund July 2024.',
-        favorite: false,
-        link: 'https://skiff.com/',
-        icon: {
-          url: dapps.skiff,
-        },
-      },
-      {
-        id: 3,
         name: 'dm3 Protocol',
         description:
           'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
@@ -451,6 +441,39 @@ export const categoriesData = [
         link: 'https://dm3.network/',
         icon: {
           url: dapps.dm3,
+        },
+      },
+      {
+        id: 3,
+        name: 'Fileverse',
+        description:
+          'Fileverse is a trustless collaboration dApp - ditch G**gle and explore onchain dDocs!',
+        favorite: false,
+        link: 'https://fileverse.io/',
+        icon: {
+          url: dapps.fileverse,
+        },
+      },
+      {
+        id: 4,
+        name: 'Hey',
+        description:
+          'A social network built on Lens Protocol',
+        favorite: false,
+        link: 'https://hey.xyz/',
+        icon: {
+          url: dapps.hey,
+        },
+      },
+      {
+        id: 5,
+        name: 'YouTube',
+        description:
+          'The place to watch videos from your favorite content creators all around the world.',
+        favorite: false,
+        link: 'https://youtube.com',
+        icon: {
+          url: dapps.youtube,
         },
       },
     ],
@@ -553,16 +576,6 @@ export const categoriesData = [
         link: 'https://frame.sh/',
         icon: {
           url: dapps.frameWallet,
-        },
-      },
-      {
-        id: 9,
-        name: 'Rabby',
-        description: 'The game-changing wallet for Ethereum and all EVM chains.',
-        favorite: false,
-        link: 'https://rabby.io/',
-        icon: {
-          url: dapps.rabby,
         },
       },
     ],
