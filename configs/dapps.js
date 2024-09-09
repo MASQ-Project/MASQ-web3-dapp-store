@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 13 Mar 2024
+// from MASQ-web3-store Public repo - modified 9 Sep 2024
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.1
+// version 3.2
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -66,28 +66,13 @@ export const categoriesData = [
       },
       {
         id: 6,
-        name: 'dm3 Protocol',
+        name: 'Venice',
         description:
-          'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
+          'Private and Uncensored AI',
         favorite: false,
-        link: 'https://dm3.network/',
+        link: 'https://venice.ai/',
         icon: {
-          url: dapps.dm3,
-        },
-      },
-      {
-        id: 7,
-        name: 'Opensea',
-        description:
-          'A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.',
-        favorite: false,
-        link: 'https://opensea.io/',
-        icon: {
-          url: dapps.opensea,
-        },
-        coin: {
-          url: './assets/images/neo.svg',
-          label: 'NEO',
+          url: dapps.veniceai,
         },
       },
     ],
@@ -239,7 +224,18 @@ export const categoriesData = [
         },
       },
       {
-        id: 1,
+        id: 2,
+        name: 'Moon Tropica',
+        description:
+          'First ever community driven & crypto storlyine infused RPG',
+        favorite: false,
+        link: 'https://moontropica.com',
+        icon: {
+          url: dapps.moontropica,
+        },
+      },
+      {
+        id: 2,
         name: 'Decentraland',
         description:
           'Determine the future of a virtual world, in the first fully decentralized digi-verse, Decentraland',
@@ -250,7 +246,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
+        id: 3,
         name: 'BetSwirl',
         description:
           "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
@@ -258,17 +254,6 @@ export const categoriesData = [
         link: 'https://betswirl.eth.limo',
         icon: {
           url: dapps.betSwirl,
-        },
-      },
-      {
-        id: 3,
-        name: 'AIFA',
-        description:
-          'Create your own AIFA All-Stars, powered by ASM Brains. Play for rankings, Play-and-Earn, or just for fun.',
-        favorite: false,
-        link: 'https://aifa.football',
-        icon: {
-          url: dapps.aifa,
         },
       },
       {
@@ -434,13 +419,13 @@ export const categoriesData = [
       },
       {
         id: 2,
-        name: 'dm3 Protocol',
+        name: 'MANDE Network',
         description:
-          'The dm3 protocol offers peer messaging with end-to-end encryption, across ENS for easy adoption.',
+          'The Credibility Hub for Web3',
         favorite: false,
-        link: 'https://dm3.network/',
+        link: 'https://mande.network',
         icon: {
-          url: dapps.dm3,
+          url: dapps.mande,
         },
       },
       {
@@ -508,6 +493,17 @@ export const categoriesData = [
       },
       {
         id: 3,
+        name: 'Venice',
+        description:
+          'Private and Uncensored AI',
+        favorite: false,
+        link: 'https://venice.ai/',
+        icon: {
+          url: dapps.veniceai,
+        },
+      },
+      {
+        id: 4,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -518,7 +514,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'ENS',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -528,7 +524,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 6,
         name: 'Handshake',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -538,7 +534,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 7,
         name: 'Ethplorer',
         description:
           'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
@@ -549,7 +545,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 8,
         name: 'Polygon Portal',
         description: 'Manage, bridge, swap and receive crypto assets on Polygon network.',
         favorite: false,
@@ -559,7 +555,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 9,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
@@ -569,7 +565,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 10,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
@@ -595,16 +591,6 @@ export const categoriesData = [
         link: 'https://ethereum.org/en/web3/',
         icon: {
           url: dapps.ethereum,
-        },
-      },
-      {
-        id: 2,
-        name: 'alXandria',
-        description: 'alXandria is an online, open-source, collaborative encyclopedic effort.',
-        favorite: false,
-        link: 'https://alxandria.org',
-        icon: {
-          url: dapps.alxandria,
         },
       },
     ],
