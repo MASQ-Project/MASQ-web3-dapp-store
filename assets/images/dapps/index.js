@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - 13 March 2024
+// from MASQ-web3-store Public repo - 9 Sep 2024
 // to be imported to path: app/renderer/assets/images/dapps
-// version 1.1
+// version 1.3
 
 import discover from './discover.svg'
 import crucible from './dapp_CrucibleByAlchemist.png'
@@ -58,6 +58,9 @@ import fileverse from './dapp_fileverse.png'
 import hey from './dapp_hey.png'
 import hamster_kombat from './dapp_hamster_kombat.png'
 import welcome_onchain from './dapp_welcome_onchain.png'
+import veniceai from './dapp_veniceai.png'
+import mande from './dapp_mande.png'
+import moontropica from './dapp_moontropica.png'
 
 export default {
     discover,
@@ -115,5 +118,8 @@ export default {
     hey,
     fileverse,
     hamster_kombat,
-    welcome_onchain
+    welcome_onchain,
+    veniceai,
+    mande,
+    moontropica
 }
