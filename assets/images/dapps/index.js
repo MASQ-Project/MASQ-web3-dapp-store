@@ -42,7 +42,6 @@ import matcha from './dapp_Matcha.png'
 import masq_icon from './masq_icon.png'
 import social from './social.svg'
 import youtube from './dapp_Youtube.png'
-import skiff from './dapp_Skiff.png'
 import utilities from './utilities.svg'
 import dextools from './dapp_Dextools.png'
 import ethExplorer from './dapp_Ethplorer.png'
@@ -51,7 +50,6 @@ import coingecko from './dapp_CoinGecko.png'
 import ens from './dapp_ENS.png'
 import other from './other.svg'
 import ethereum from './dapp_Ethereum.png'
-import alxandria from './dapp_alXandria.png'
 import presearch from './dapp_Presearch.png'
 import handshake from './dapp_Handshake.png'
 import fileverse from './dapp_fileverse.png'
@@ -61,6 +59,10 @@ import welcome_onchain from './dapp_welcome_onchain.png'
 import veniceai from './dapp_veniceai.png'
 import mande from './dapp_mande.png'
 import moontropica from './dapp_moontropica.png'
+import metascore from './dapp_metascore.png'
+import tokensight from './dapp_tokensight.png'
+import hashai from './dapp_hashai.png',
+import base from './dapp_base.png'
 
 export default {
     discover,
@@ -101,7 +103,6 @@ export default {
     matcha,
     social,
     youtube,
-    skiff,
     utilities,
     dextools,
     balancer,
@@ -112,7 +113,6 @@ export default {
     ens,
     other,
     ethereum,
-    alxandria,
     presearch,
     handshake,
     hey,
@@ -121,5 +121,9 @@ export default {
     welcome_onchain,
     veniceai,
     mande,
-    moontropica
+    moontropica,
+    metascore,
+    tokensight,
+    hashai,
+    base
 }
