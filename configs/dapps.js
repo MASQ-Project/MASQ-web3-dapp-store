@@ -97,6 +97,28 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'HashAI',
+        description:
+          'Revolutionary Artificial Intelligence, Optimizing Crypto Mining',
+        favorite: false,
+        link: 'https://www.hashai.co.uk',
+        icon: {
+          url: dapps.hashai,
+        },
+      },
+      {
+        id: 3,
+        name: 'TokenSight',
+        description:
+          'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
+        favorite: false,
+        link: 'https://tokensight.io/ref-signup?referral_code=ref_eLHVaLTH4Zn9',
+        icon: {
+          url: dapps.tokensight,
+        },
+      },
+      {
+        id: 4,
         name: 'Bancor',
         description:
           'Trade tokens and earn interest on your favorite tokens by staking them.',
@@ -107,7 +129,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 5,
         name: 'PoolTogether',
         description:
           'Crypto-powered savings protocol based on Premium Bonds. Save money and have a chance to win every week.',
@@ -118,7 +140,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 6,
         name: 'Zapper',
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
@@ -129,7 +151,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 7,
         name: 'Crucible',
         description:
           'A Crucible is an ERC-721 NFT that acts as a non-custodial universal wallet for DeFi',
@@ -140,7 +162,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 8,
         name: 'DefiLlama',
         description:
           'DefiLlama is a transparent DeFi TVL and analytics platform.',
@@ -535,6 +557,16 @@ export const categoriesData = [
       },
       {
         id: 7,
+        name: 'Metascore',
+        description: 'Metascore offers comprehensive security ratings for web3 projects & real-time risk alerts.',
+        favorite: false,
+        link: 'https://score.metatrust.io',
+        icon: {
+          url: dapps.metatrust,
+        },
+      },
+      {
+        id: 8,
         name: 'Ethplorer',
         description:
           'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
@@ -545,7 +577,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 9,
         name: 'Polygon Portal',
         description: 'Manage, bridge, swap and receive crypto assets on Polygon network.',
         favorite: false,
@@ -555,7 +587,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 9,
+        id: 10,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
@@ -565,7 +597,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 10,
+        id: 11,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
