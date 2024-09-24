@@ -61,7 +61,7 @@ import mande from './dapp_mande.png'
 import moontropica from './dapp_moontropica.png'
 import metascore from './dapp_metascore.png'
 import tokensight from './dapp_tokensight.png'
-import hashai from './dapp_hashai.png',
+import hashai from './dapp_hashai.png'
 import base from './dapp_base.png'
 
 export default {
