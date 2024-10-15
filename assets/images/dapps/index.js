@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - 9 Sep 2024
+// from MASQ-web3-store Public repo - 15 Oct 2024
 // to be imported to path: app/renderer/assets/images/dapps
-// version 1.3
+// version 1.4
 
 import discover from './discover.svg'
 import crucible from './dapp_CrucibleByAlchemist.png'
@@ -63,6 +63,7 @@ import metascore from './dapp_metascore.png'
 import tokensight from './dapp_tokensight.png'
 import hashai from './dapp_hashai.png'
 import base from './dapp_base.png'
+import superbridge from './dapp_superbridge.png'
 
 export default {
     discover,
@@ -125,5 +126,6 @@ export default {
     metascore,
     tokensight,
     hashai,
-    base
+    base,
+    superbridge
 }
