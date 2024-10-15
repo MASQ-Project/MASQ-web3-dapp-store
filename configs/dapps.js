@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 9 Sep 2024
+// from MASQ-web3-store Public repo - modified 15 Oct 2024
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.2
+// version 3.3
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -55,13 +55,13 @@ export const categoriesData = [
       },
       {
         id: 5,
-        name: 'Filebase',
+        name: 'Superbridge',
         description:
-          'Experience decentralized storage access to IPFS, with an easy to use interface',
+          'Native bridging for rollups - bridge ETH, MASQ and other tokens easily',
         favorite: false,
-        link: 'https://filebase.com/',
+        link: 'https://superbridge.app/',
         icon: {
-          url: dapps.filebase,
+          url: dapps.superbridge,
         },
       },
       {
@@ -598,6 +598,17 @@ export const categoriesData = [
       },
       {
         id: 11,
+        name: 'Superbridge',
+        description:
+          'Native bridging for rollups - bridge ETH, MASQ and other tokens easily',
+        favorite: false,
+        link: 'https://superbridge.app/',
+        icon: {
+          url: dapps.superbridge,
+        },
+      },
+      {
+        id: 12,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
