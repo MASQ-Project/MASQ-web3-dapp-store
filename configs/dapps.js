@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 15 Oct 2024
+// from MASQ-web3-store Public repo - modified 29 Oct 2024
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.3
+// version 3.4
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -112,7 +112,7 @@ export const categoriesData = [
         description:
           'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
         favorite: false,
-        link: 'https://tokensight.io/ref-signup?referral_code=ref_eLHVaLTH4Zn9',
+        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
         icon: {
           url: dapps.tokensight,
         },
