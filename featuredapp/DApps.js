@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 9 May 2024
+// from MASQ-web3-store Public repo - modified 5 Jan 2025
 // to be imported to path: app/renderer/components/Main/DApps/DApps.js
-// version 4.0
+// version 5.0
 
 import React, {useState} from 'react';
 import Categories from './Categories';
@@ -22,7 +22,7 @@ import dapps from '../../../assets/images/dapps';
 const featureAppData = [
     {
         name: 'MASQ.AI',
-        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
+        link: 'https://docs.masq.ai/masq?q=',
         description:
             'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base',
         banner: feature1,
@@ -111,44 +111,42 @@ const DApps = (props) => {
             setSize({ width: 1150, height: 600 });
         }
     };
+
+    const handleCloseWindow = () => {
+        onMinimizeHandle('dapp');
+        setDappPosition(DappInitialPosition);
+        setSize({
+            width: 1170,
+            height: 600,
+        });
+        setDappMaximized(false);
+    };
+
     return (
         <div className='dApps' onClick={onClick}>
-            <div
-                    className={classNames('handle')}
-                    
-                >
-                    <div className='btnWrap'>
-                        <div
-                            className='maximize'
-                            onClick={handleMaximizeWindow}
-                        >
-                            <img src={maximizeIcon} />
-                        </div>
-                        <HeaderIcon
-                            image={closeIcon}
-                            classname={'buttons close'}
-                            onClick={() => {
-                                onMinimizeHandle('dapp' )
-                                setDappPosition(DappInitialPosition)
-                                setSize({
-                                    width: 1170,
-                                    height: 600,
-                                })
-                                setDappMaximized(false)
-                            }}
-                        />
+            <div className={classNames('handle')}>
+                <div className='btnWrap'>
+                    <div className='maximize' onClick={handleMaximizeWindow}>
+                        <img src={maximizeIcon} />
+                    </div>
+                    <div
+                        className='btnWrap_minimize'
+                        onClick={handleCloseWindow}
+                    >
+                        <img src={closeIcon} />
+                    </div>
 
-                        {/* <HeaderIcon
+                    {/* <HeaderIcon
                         image={maximizeIcon}
                         classname={'buttons maximize'}
                         onClick={handleMaximizeWindow}
                     /> */}
-                    </div>
-                    <div className='handle-title'>
-                        <img src={appElement.item.icon.url}></img>
-                        <span>{appElement.item.name}</span>
-                    </div>
                 </div>
+                <div className='handle-title'>
+                    <img src={appElement.item.icon.url}></img>
+                    <span>{appElement.item.name}</span>
+                </div>
+            </div>
             <Categories
                 data={categories}
                 activeItem={selectItem}
