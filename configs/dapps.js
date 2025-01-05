@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 29 Oct 2024
+// from MASQ-web3-store Public repo - modified 5 Jan 2025
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.4
+// version 3.5
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -24,6 +24,28 @@ export const categoriesData = [
       },
       {
         id: 2,
+        name: 'TokenSight',
+        description:
+        'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
+        favorite: false,
+        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
+        icon: {
+        url: dapps.tokensight,
+        },
+      },
+      {
+        id: 3,
+        name: 'Superbridge',
+        description:
+        'Native bridging for rollups - bridge ETH, MASQ and other tokens easily',
+        favorite: false,
+        link: 'https://superbridge.app/',
+        icon: {
+        url: dapps.superbridge,
+        },
+      },
+      {
+        id: 4,
         name: 'QuickSwap',
         description:
             'Quickswap is a decentralized exchange (DEX) on the Polygon Network. Trade MASQ here on Polygon!',
@@ -34,7 +56,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 5,
         name: 'Presearch',
         description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
         favorite: false,
@@ -44,7 +66,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 6,
         name: 'Handshake',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -54,18 +76,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
-        name: 'Superbridge',
-        description:
-          'Native bridging for rollups - bridge ETH, MASQ and other tokens easily',
-        favorite: false,
-        link: 'https://superbridge.app/',
-        icon: {
-          url: dapps.superbridge,
-        },
-      },
-      {
-        id: 6,
+        id: 7,
         name: 'Venice',
         description:
           'Private and Uncensored AI',
@@ -86,6 +97,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
+        name: 'TokenSight',
+        description:
+        'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
+        favorite: false,
+        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
+        icon: {
+        url: dapps.tokensight,
+        },
+      },
+      {
+        id: 2,
         name: 'Aave',
         description:
           'Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.',
@@ -96,7 +118,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
+        id: 3,
         name: 'HashAI',
         description:
           'Revolutionary Artificial Intelligence, Optimizing Crypto Mining',
@@ -104,17 +126,6 @@ export const categoriesData = [
         link: 'https://www.hashai.co.uk',
         icon: {
           url: dapps.hashai,
-        },
-      },
-      {
-        id: 3,
-        name: 'TokenSight',
-        description:
-          'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
-        favorite: false,
-        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
-        icon: {
-          url: dapps.tokensight,
         },
       },
       {
@@ -348,7 +359,7 @@ export const categoriesData = [
         description:
           'Swap, earn, and build on the leading decentralized crypto trading protocol.',
         favorite: false,
-        link: 'https://app.uniswap.org/#/swap?outputCurrency=0x06f3c323f0238c72bf35011071f2b5b7f43a054c&use=V2',
+        link: 'https://app.uniswap.org/swap',
         icon: {
           url: dapps.uniswap,
         },
@@ -414,7 +425,7 @@ export const categoriesData = [
       description:
         'Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform',
       favorite: false,
-      link: 'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x06F3C323f0238c72BF35011071f2b5B7F43A054c',
+      link: 'https://www.sushi.com/base/swap',
       icon: {
         url: dapps.sushiSwap,
         },
@@ -430,6 +441,17 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
+        name: 'Send App',
+        description:
+          'Join the Send revolution and experience seamless sending..',
+        favorite: false,
+        link: 'https://send.app',
+        icon: {
+          url: dapps.send,
+        },
+      },
+      {
+        id: 2,
         name: 'Welcome Onchain',
         description:
           'Welcome Onchain is a permissionless platform that brings together the working heartbeat of the crypto community.',
@@ -437,17 +459,6 @@ export const categoriesData = [
         link: 'https://www.welcomeonchain.xyz',
         icon: {
           url: dapps.welcome_onchain,
-        },
-      },
-      {
-        id: 2,
-        name: 'MANDE Network',
-        description:
-          'The Credibility Hub for Web3',
-        favorite: false,
-        link: 'https://mande.network',
-        icon: {
-          url: dapps.mande,
         },
       },
       {
@@ -481,6 +492,17 @@ export const categoriesData = [
         link: 'https://youtube.com',
         icon: {
           url: dapps.youtube,
+        },
+      },
+      {
+        id: 6,
+        name: 'MANDE Network',
+        description:
+          'The Credibility Hub for Web3',
+        favorite: false,
+        link: 'https://mande.network',
+        icon: {
+          url: dapps.mande,
         },
       },
     ],
