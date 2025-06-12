@@ -60,11 +60,12 @@ import veniceai from './dapp_veniceai.png'
 import mande from './dapp_mande.png'
 import moontropica from './dapp_moontropica.png'
 import metascore from './dapp_metascore.png'
-import tokensight from './dapp_tokensight.png'
 import hashai from './dapp_hashai.png'
 import base from './dapp_base.png'
 import superbridge from './dapp_superbridge.png'
 import send from './dapp_send.png'
+import timpi from './dapp_Timpi.png'
+import dDocs from './dapp_dDocs.png'
 
 export default {
     discover,
@@ -125,9 +126,10 @@ export default {
     mande,
     moontropica,
     metascore,
-    tokensight,
     hashai,
     base,
     superbridge,
-    send
+    send,
+    timpi,
+    dDocs
 }
