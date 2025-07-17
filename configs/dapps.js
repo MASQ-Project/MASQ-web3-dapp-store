@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 5 Jan 2025
+// from MASQ-web3-store Public repo - modified 16 Jul 2025
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.5
+// version 4.0
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -13,24 +13,24 @@ export const categoriesData = [
     d_apps: [
        {
         id: 1,
-        name: 'MASQ.AI',
+        name: 'MASQ AI',
         description:
           'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base.',
         favorite: false,
-        link: 'https://docs.masq.ai/masq/getting-started/what-is-MASQ?q=',
+        link: 'https://docs.masqbrowser.com/masq?q=what+is+MASQ?&ask=true',
         icon: {
           url: dapps.masq_icon,
         },
       },
       {
         id: 2,
-        name: 'TokenSight',
+        name: 'Timpi',
         description:
-        'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
+          'Timpi is the world\'s first un-manipulated search engine',
         favorite: false,
-        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
+        link: 'https://timpi.io/',
         icon: {
-        url: dapps.tokensight,
+        url: dapps.timpi,
         },
       },
       {
@@ -57,6 +57,17 @@ export const categoriesData = [
       },
       {
         id: 5,
+        name: 'Venice',
+        description:
+          'Private and Uncensored AI',
+        favorite: false,
+        link: 'https://venice.ai/',
+        icon: {
+          url: dapps.veniceai,
+        },
+      },
+      {
+        id: 6,
         name: 'Presearch',
         description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
         favorite: false,
@@ -66,24 +77,13 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'Handshake',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
         link: 'https://handshake.org',
         icon: {
           url: dapps.handshake,
-        },
-      },
-      {
-        id: 7,
-        name: 'Venice',
-        description:
-          'Private and Uncensored AI',
-        favorite: false,
-        link: 'https://venice.ai/',
-        icon: {
-          url: dapps.veniceai,
         },
       },
     ],
@@ -97,17 +97,6 @@ export const categoriesData = [
     d_apps: [
       {
         id: 1,
-        name: 'TokenSight',
-        description:
-        'TokenSight enables trading across 12+ EVM chains using secure self-custodial wallets.',
-        favorite: false,
-        link: 'https://tokensight.io/ref-signup?referral_code=masqonbase',
-        icon: {
-        url: dapps.tokensight,
-        },
-      },
-      {
-        id: 2,
         name: 'Aave',
         description:
           'Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets.',
@@ -118,7 +107,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 2,
         name: 'HashAI',
         description:
           'Revolutionary Artificial Intelligence, Optimizing Crypto Mining',
@@ -129,7 +118,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 3,
         name: 'Bancor',
         description:
           'Trade tokens and earn interest on your favorite tokens by staking them.',
@@ -140,7 +129,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 4,
         name: 'PoolTogether',
         description:
           'Crypto-powered savings protocol based on Premium Bonds. Save money and have a chance to win every week.',
@@ -151,7 +140,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 5,
         name: 'Zapper',
         description:
           'Easily track and visualize all your DeFi assets and liabilities in one simple interface.',
@@ -162,7 +151,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'Crucible',
         description:
           'A Crucible is an ERC-721 NFT that acts as a non-custodial universal wallet for DeFi',
@@ -173,7 +162,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 7,
         name: 'DefiLlama',
         description:
           'DefiLlama is a transparent DeFi TVL and analytics platform.',
@@ -419,17 +408,6 @@ export const categoriesData = [
           url: dapps.matcha,
         },
       },
-      {
-      id: 7,
-      name: 'Sushiswap',
-      description:
-        'Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform',
-      favorite: false,
-      link: 'https://www.sushi.com/base/swap',
-      icon: {
-        url: dapps.sushiSwap,
-        },
-      },
     ],
   },
   {
@@ -439,6 +417,17 @@ export const categoriesData = [
       url: dapps.social,
     },
     d_apps: [
+      {
+        id: 1,
+        name: 'dDocs.new',
+        description:
+          'Ditch G**gle docs! Privacy-enhancing. Peer-to-peer. Self-sovereign. Powered by Fileverse.',
+        favorite: false,
+        link: 'https://docs.fileverse.io/document/create',
+        icon: {
+          url: dapps.dDocs,
+        },
+      },
       {
         id: 1,
         name: 'Send App',
@@ -465,15 +454,25 @@ export const categoriesData = [
         id: 3,
         name: 'Fileverse',
         description:
-          'Fileverse is a trustless collaboration dApp - ditch G**gle and explore onchain dDocs!',
+          'Privacy-enhancing and onchain alternative to Google Workspace & Notion',
         favorite: false,
         link: 'https://fileverse.io/',
         icon: {
           url: dapps.fileverse,
         },
       },
+      { id: 4,
+        name: 'Timpi',
+        description:
+          'Timpi is the world\'s first un-manipulated search engine',
+        favorite: false,
+        link: 'https://timpi.io/',
+        icon: {
+          url: dapps.timpi,
+        },
+      },
       {
-        id: 4,
+        id: 5,
         name: 'Hey',
         description:
           'A social network built on Lens Protocol',
@@ -484,7 +483,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'YouTube',
         description:
           'The place to watch videos from your favorite content creators all around the world.',
@@ -492,17 +491,6 @@ export const categoriesData = [
         link: 'https://youtube.com',
         icon: {
           url: dapps.youtube,
-        },
-      },
-      {
-        id: 6,
-        name: 'MANDE Network',
-        description:
-          'The Credibility Hub for Web3',
-        favorite: false,
-        link: 'https://mande.network',
-        icon: {
-          url: dapps.mande,
         },
       },
     ],

@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 5 Jan 2025
+// from MASQ-web3-store Public repo - modified 16 Jul 2025
 // to be imported to path: app/renderer/components/Main/DApps/DApps.js
-// version 5.0
+// version 6.0
 
 import React, {useState} from 'react';
 import Categories from './Categories';
@@ -21,8 +21,8 @@ import { toggleDock } from '../../../reducers/launcher';
 import dapps from '../../../assets/images/dapps';
 const featureAppData = [
     {
-        name: 'MASQ.AI',
-        link: 'https://docs.masq.ai/masq?q=',
+        name: 'MASQ AI',
+        link: 'https://docs.masqbrowser.com/masq?q=what+is+MASQ?&ask=true',
         description:
             'Ask MASQ questions naturally to an AI-Powered assistant, directly from the MASQ Knowledge Base',
         banner: feature1,
