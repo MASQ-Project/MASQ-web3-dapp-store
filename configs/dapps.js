@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 5 Jan 2025
+// from MASQ-web3-store Public repo - modified 16 Jul 2025
 // to be imported to path: app/renderer/configs/dapps.js
-// version 3.5
+// version 4.0
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [

@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 5 Jan 2025
+// from MASQ-web3-store Public repo - modified 16 Jul 2025
 // to be imported to path: app/renderer/components/Main/DApps/DApps.js
-// version 5.0
+// version 6.0
 
 import React, {useState} from 'react';
 import Categories from './Categories';
