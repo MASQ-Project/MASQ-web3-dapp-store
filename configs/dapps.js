@@ -1,6 +1,6 @@
-// from MASQ-web3-store Public repo - modified 16 Jul 2025
+// from MASQ-web3-store Public repo - modified 5 Dec 2025
 // to be imported to path: app/renderer/configs/dapps.js
-// version 4.0
+// version 5.0
 
 import dapps from "../assets/images/dapps";
 export const categoriesData = [
@@ -28,7 +28,7 @@ export const categoriesData = [
         description:
           'Timpi is the world\'s first un-manipulated search engine',
         favorite: false,
-        link: 'https://timpi.io/',
+        link: 'https://timpi.io/search-engine?utm_source=masqbrowser',
         icon: {
         url: dapps.timpi,
         },
@@ -68,12 +68,13 @@ export const categoriesData = [
       },
       {
         id: 6,
-        name: 'Presearch',
-        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
+        name: 'Send App',
+        description:
+          'Join the Send revolution and experience seamless sending..',
         favorite: false,
-        link: 'https://presearch.com',
+        link: 'https://send.app',
         icon: {
-          url: dapps.presearch,
+          url: dapps.send,
         },
       },
       {
@@ -515,16 +516,6 @@ export const categoriesData = [
       },
       {
         id: 2,
-        name: 'Presearch',
-        description: 'Search privately with the Presearch decentralized search engine, powered by blockchain technology.',
-        favorite: false,
-        link: 'https://presearch.com',
-        icon: {
-          url: dapps.presearch,
-        },
-      },
-      {
-        id: 3,
         name: 'Venice',
         description:
           'Private and Uncensored AI',
@@ -535,7 +526,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 3,
         name: 'Filebase',
         description:
           'Experience decentralized storage access to IPFS, with an easy to use interface',
@@ -546,7 +537,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 4,
         name: 'ENS',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -556,7 +547,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 5,
         name: 'Handshake',
         description: 'Decentralised naming for wallets, websites, & more',
         favorite: false,
@@ -566,7 +557,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 6,
         name: 'Metascore',
         description: 'Metascore offers comprehensive security ratings for web3 projects & real-time risk alerts.',
         favorite: false,
@@ -576,7 +567,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 7,
         name: 'Ethplorer',
         description:
           'Search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities.',
@@ -587,7 +578,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 9,
+        id: 8,
         name: 'Polygon Portal',
         description: 'Manage, bridge, swap and receive crypto assets on Polygon network.',
         favorite: false,
@@ -597,7 +588,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 10,
+        id: 9,
         name: 'CoinGecko',
         description: 'View crypto charts live, market cap, and trading volume.',
         favorite: false,
@@ -607,7 +598,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 11,
+        id: 10,
         name: 'Superbridge',
         description:
           'Native bridging for rollups - bridge ETH, MASQ and other tokens easily',
@@ -618,7 +609,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 12,
+        id: 11,
         name: 'Frame',
         description: 'A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux',
         favorite: false,
