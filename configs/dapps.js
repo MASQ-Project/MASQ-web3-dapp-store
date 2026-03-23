@@ -28,7 +28,7 @@ export const categoriesData = [
         description:
           'Timpi is the world\'s first un-manipulated search engine',
         favorite: false,
-        link: 'https://timpi.io/search-engine?utm_source=masqbrowser',
+        link: 'https://timpi.com/?utm_source=masqbrowser',
         icon: {
         url: dapps.timpi,
         },
