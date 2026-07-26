@@ -1,0 +1,6 @@
+node_modules/
+lint-results.json
+pr-comment.md
+coverage/
+*.log
+.DS_Store

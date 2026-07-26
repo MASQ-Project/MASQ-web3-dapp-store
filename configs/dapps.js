@@ -258,7 +258,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
+        id: 3,
         name: 'Decentraland',
         description:
           'Determine the future of a virtual world, in the first fully decentralized digi-verse, Decentraland',
@@ -269,7 +269,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 4,
         name: 'BetSwirl',
         description:
           "Transforming the future of GambleFi with Web3 │ Bringing excitement and transparency to Gambling",
@@ -280,7 +280,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 4,
+        id: 5,
         name: 'Arc8',
         description:
           'Arc8 by GAMEE brings the blockchain experience to millions of gamers - Powered by Polygon',
@@ -291,7 +291,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'CryptoVoxels',
         description:
           'Cryptovoxels is a virtual world and metaverse, powered by the Ethereum blockchain.',
@@ -302,7 +302,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'DarkForest',
         description:
           "Dark Forest, the world's first decentralized real-time strategy game. Built on Ethereum.",
@@ -313,7 +313,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 7,
+        id: 8,
         name: 'Pegaxy',
         description:
           "Pegaxy (Pegasus Galaxy) is a racing game with futuristic mythological styling. Pega (the horses) are descendants of the mighty Pegasus.",
@@ -324,7 +324,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 8,
+        id: 9,
         name: 'Dragonmaster',
         description:
           "Dragon Master is the first blockchain-based Metaverse game that blends RTS, MOBA, Collection, and Play-to-Earn gameplay.",
@@ -430,7 +430,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 1,
+        id: 2,
         name: 'Send App',
         description:
           'Join the Send revolution and experience seamless sending..',
@@ -441,7 +441,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 2,
+        id: 3,
         name: 'Welcome Onchain',
         description:
           'Welcome Onchain is a permissionless platform that brings together the working heartbeat of the crypto community.',
@@ -452,7 +452,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 3,
+        id: 4,
         name: 'Fileverse',
         description:
           'Privacy-enhancing and onchain alternative to Google Workspace & Notion',
@@ -462,7 +462,8 @@ export const categoriesData = [
           url: dapps.fileverse,
         },
       },
-      { id: 4,
+      {
+        id: 5,
         name: 'Timpi',
         description:
           'Timpi is the world\'s first un-manipulated search engine',
@@ -473,7 +474,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 5,
+        id: 6,
         name: 'Hey',
         description:
           'A social network built on Lens Protocol',
@@ -484,7 +485,7 @@ export const categoriesData = [
         },
       },
       {
-        id: 6,
+        id: 7,
         name: 'YouTube',
         description:
           'The place to watch videos from your favorite content creators all around the world.',
@@ -563,7 +564,7 @@ export const categoriesData = [
         favorite: false,
         link: 'https://score.metatrust.io',
         icon: {
-          url: dapps.metatrust,
+          url: dapps.metascore,
         },
       },
       {

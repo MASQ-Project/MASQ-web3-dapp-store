@@ -1,0 +1,28 @@
+{
+  "name": "masq-web3-dapp-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Config and assets for the MASQ web3 dApp Store",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint:config": "vitest run",
+    "lint:report": "node lint/format-report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MASQ-Project/MASQ-web3-dapp-store.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MASQ-Project/MASQ-web3-dapp-store/issues"
+  },
+  "homepage": "https://github.com/MASQ-Project/MASQ-web3-dapp-store#readme",
+  "devDependencies": {
+    "acorn": "^8.17.0",
+    "acorn-walk": "^8.3.5",
+    "vitest": "^4.1.10",
+    "zod": "^4.4.3"
+  }
+}
