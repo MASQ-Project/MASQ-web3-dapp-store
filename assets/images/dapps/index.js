@@ -50,7 +50,6 @@ import coingecko from './dapp_CoinGecko.png'
 import ens from './dapp_ENS.png'
 import other from './other.svg'
 import ethereum from './dapp_Ethereum.png'
-import presearch from './dapp_Presearch.png'
 import handshake from './dapp_Handshake.png'
 import fileverse from './dapp_fileverse.png'
 import hey from './dapp_hey.png'
@@ -116,7 +115,6 @@ export default {
     ens,
     other,
     ethereum,
-    presearch,
     handshake,
     hey,
     fileverse,
